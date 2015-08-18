@@ -16,11 +16,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.first.tripakey.caldecorate.Global;
+import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
+import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
+import com.first.tripakey.caldecorate.decorate.curtains.Roman.Roman;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.decorate.curtains.RomanBlind;
-import com.first.tripakey.caldecorate.decorate.curtains.EyeletCurtains;
-import com.first.tripakey.caldecorate.decorate.curtains.PleatedCurtains;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -47,15 +47,15 @@ public class curtain extends ActionBarActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position+1){
                     case 1:
-                        startActivity(new Intent(curtain.this, PleatedCurtains.class));
+                        startActivity(new Intent(curtain.this, Pleated.class));
                         Global.name_curtain = "ม่านจีบ";
                         break;
                     case 2:
-                        startActivity(new Intent(curtain.this, EyeletCurtains.class));
+                        startActivity(new Intent(curtain.this, Eyelet.class));
                         Global.name_curtain = "ม่านตาไก่";
                         break;
                     case 3:
-                        startActivity(new Intent(curtain.this, RomanBlind.class));
+                        startActivity(new Intent(curtain.this, Roman.class));
                         Global.name_curtain = "ม่านผับ";
                         break;
 

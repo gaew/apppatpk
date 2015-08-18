@@ -31,28 +31,12 @@
             android:label="@string/title_activity_curtain" >
         </activity>
         <activity
-            android:name=".decorate.curtains.settingPleatedCurtain"
-            android:label="@string/title_activity_setting" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.PleatedCurtains"
-            android:label="@string/title_activity_cal_curtain" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.RomanBlind"
-            android:label="@string/title_activity_cal_curtain2pup" >
-        </activity>
-        <activity
             android:name=".cost.cost_curtain"
             android:label="@string/title_activity_cost1" >
         </activity>
         <activity
             android:name=".decorate.WallPaper"
             android:label="@string/title_activity_wall_paper" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.settingRomanBlind"
-            android:label="@string/title_activity_setting_pup" >
         </activity>
         <activity
             android:name=".decorate.RollerBlind"
@@ -77,14 +61,6 @@
         <activity
             android:name=".cost.costWallpaper"
             android:label="@string/title_activity_cost_wallpaper" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.EyeletCurtains"
-            android:label="@string/title_activity_calcurtain_mtaki" >
-        </activity>
-        <activity
-            android:name=".decorate.curtains.settingEyeletCurtain"
-            android:label="@string/title_activity_setting_mtaki" >
         </activity>
 
         <!-- Include the AdActivity configChanges and theme. -->

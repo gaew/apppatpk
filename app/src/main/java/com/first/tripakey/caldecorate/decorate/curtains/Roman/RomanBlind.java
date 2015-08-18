@@ -1,12 +1,13 @@
-package com.first.tripakey.caldecorate.decorate.curtains;
+package com.first.tripakey.caldecorate.decorate.curtains.Roman;
 //หลักการตั้งตัวเปรใน java = ชนิดตัวแปร(ย่อ)_ชื่อตัวแปลนั้น
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -15,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -33,9 +35,9 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RomanBlind extends ActionBarActivity {
+public class RomanBlind extends Fragment {
 /////เริ่ม1 copy แอดส่วนลดตาม
-
+  private Spinner  spin_LTD ;//ตัวดรอบดาวแสดงค่า I
     LinearLayout container,container2,discountF;
     static EditText            testhand,  field1,field2,field3,field4;
     public  Integer onstart;
@@ -44,7 +46,8 @@ public class RomanBlind extends ActionBarActivity {
 
     ///////จบ1 copy แอดส่วนลดตาม
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.activity_roman_blind, container, false);
         /////เริ่ม2 copy แอดส่วนลดตาม
         onstart=0;
         hand1 = 0.0;
@@ -55,16 +58,11 @@ public class RomanBlind extends ActionBarActivity {
         g=0.0;
 
 ///////จบ2 copy แอดส่วนลดตาม
-        super.onCreate(savedInstanceState);
-        setTitle(R.string.romam);
 
-        setContentView(R.layout.activity_roman_blind);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
-        SharedPreferences spp = getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
+
+        SharedPreferences spp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
       //  String stg_sharD = spp.getString("My_ValueD", "2.5");
         String stg_sharE = spp.getString("My_ValueEpup", "10.0");
         String stg_sharF = spp.getString("My_ValueFpup", "10.0");
@@ -81,36 +79,36 @@ public class RomanBlind extends ActionBarActivity {
         final  Double i  = Double.parseDouble(stg_sharI);
         final Double j = Double.parseDouble(stg_sharJ);
 
-        addcomp();
+        addCompunny(v);
 
-        final EditText  w_edt = (EditText) findViewById(R.id.w);
-        final EditText h_edt = (EditText) findViewById(R.id.h);
-        final EditText wfab_edt = (EditText) findViewById(R.id.wfab);
-        final EditText priceIn_edt = (EditText) findViewById(R.id.priceIn);
-
-
-        final EditText numL_edt =(EditText)findViewById(R.id.numL);
-
-        final TextView totalpeice_tv = (TextView) findViewById(R.id.totalPiece);
-        final TextView ydOut_tv = (TextView) findViewById(R.id.ydOut);
-        final TextView metreOut_tv = (TextView) findViewById(R.id.metreOut);
-        final TextView priceUse_tv = (TextView) findViewById(R.id.priceUse);
-        final TextView discount_tv = (TextView) findViewById(R.id.discount);
-        final TextView totalBht_tv = (TextView) findViewById(R.id.totalBht);
-        numM=(TextView)findViewById(R.id.numM);
+        final EditText  w_edt = (EditText) v.findViewById(R.id.w);
+        final EditText h_edt = (EditText) v.findViewById(R.id.h);
+        final EditText wfab_edt = (EditText) v.findViewById(R.id.wfab);
+        final EditText priceIn_edt = (EditText) v.findViewById(R.id.priceIn);
 
 
-        Button cal_bt = (Button) findViewById(R.id.cal);
+        final EditText numL_edt =(EditText)v.findViewById(R.id.numL);
+
+        final TextView totalpeice_tv = (TextView) v.findViewById(R.id.totalPiece);
+        final TextView ydOut_tv = (TextView) v.findViewById(R.id.ydOut);
+        final TextView metreOut_tv = (TextView) v.findViewById(R.id.metreOut);
+        final TextView priceUse_tv = (TextView) v.findViewById(R.id.priceUse);
+        final TextView discount_tv = (TextView) v.findViewById(R.id.discount);
+        final TextView totalBht_tv = (TextView) v.findViewById(R.id.totalBht);
+        numM=(TextView)v.findViewById(R.id.numM);
 
 
-        final CheckBox vat = (CheckBox) findViewById(R.id.vat);
+        Button cal_bt = (Button) v.findViewById(R.id.cal);
+
+
+        final CheckBox vat = (CheckBox) v.findViewById(R.id.vat);
 
         g = g*2.0;
         //////เริ่ม3 copy แอดส่วนลดตาม
-        container = (LinearLayout)findViewById(R.id.container);
-        container2= (LinearLayout)findViewById(R.id.container2);
-        discountF = (LinearLayout)findViewById(R.id.discountReq);
-        testhand = (EditText)findViewById(R.id.handi1_edittxt);
+        container = (LinearLayout)v.findViewById(R.id.container);
+        container2= (LinearLayout)v.findViewById(R.id.container2);
+        discountF = (LinearLayout)v.findViewById(R.id.discountReq);
+        testhand = (EditText)v.findViewById(R.id.handi1_edittxt);
 
         testhand.addTextChangedListener(new TextWatcher() {
             @Override
@@ -130,7 +128,7 @@ public class RomanBlind extends ActionBarActivity {
                 if (testhand.length() == 1) {
                     if (onstart == 0) {
                         onstart = 1;
-                        LayoutInflater layoutInflater2 = (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                        LayoutInflater layoutInflater2 = (LayoutInflater) getActivity().getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                         final View addView = layoutInflater2.inflate(R.layout.discountfield, null);
                         field1 = (EditText) addView.findViewById(R.id.addDiscount);
 
@@ -149,10 +147,10 @@ public class RomanBlind extends ActionBarActivity {
 
                             @Override
                             public void afterTextChanged(Editable s) {
-                                if(field1.length()==1) {
+                                if (field1.length() == 1) {
                                     if (onstart == 1) {
                                         onstart = 2;
-                                        LayoutInflater layoutInflater2 = (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                                        LayoutInflater layoutInflater2 = (LayoutInflater) getActivity().getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                                         final View addView = layoutInflater2.inflate(R.layout.discountfield, null);
                                         field2 = (EditText) addView.findViewById(R.id.addDiscount);
                                         discountF.addView(addView);
@@ -172,7 +170,7 @@ public class RomanBlind extends ActionBarActivity {
                                                 if (field2.length() == 1) {
                                                     if (onstart == 2) {
                                                         onstart = 3;
-                                                        LayoutInflater layoutInflater2 = (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                                                        LayoutInflater layoutInflater2 = (LayoutInflater) getActivity().getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                                                         final View addView = layoutInflater2.inflate(R.layout.discountfield, null);
                                                         field3 = (EditText) addView.findViewById(R.id.addDiscount);
                                                         discountF.addView(addView);
@@ -192,7 +190,7 @@ public class RomanBlind extends ActionBarActivity {
                                                                 if (field3.length() == 1) {
                                                                     if (onstart == 3) {
                                                                         onstart = 4;
-                                                                        LayoutInflater layoutInflater2 = (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                                                                        LayoutInflater layoutInflater2 = (LayoutInflater) getActivity().getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                                                                         final View addView = layoutInflater2.inflate(R.layout.discountfield, null);
                                                                         field4 = (EditText) addView.findViewById(R.id.addDiscount);
 
@@ -336,6 +334,8 @@ public class RomanBlind extends ActionBarActivity {
                     DecimalFormat d2 = new DecimalFormat("0.00");
                     DecimalFormat d1 = new DecimalFormat("0.0");
 
+                    numPiece=metre/numPieceInter;
+
                     totalpeice_tv.setText(d2.format(numPieceInter));
                     numM.setText(d2.format(numPiece));
                     metreOut_tv.setText(d4.format(metre));
@@ -345,65 +345,18 @@ public class RomanBlind extends ActionBarActivity {
                     totalBht_tv.setText(d2.format(totalBth));
 
                 } else
-                    Toast.makeText(getApplicationContext(), "ต้องใส่ข้อมูลในช่องที่มีเครื่องหมายดอกจัน *", Toast.LENGTH_SHORT).show();
-
+                    Toast.makeText(getActivity().getBaseContext(), "ต้องใส่ข้อมูลในช่องที่มีเครื่องหมายดอกจัน *", Toast.LENGTH_SHORT).show();
 
             }
         });
-
+return v;
     }
-
-
-
-    public void addcomp() {
-        Spinner pcom = (Spinner) findViewById(R.id.spinComp);
-        List<String> list = new ArrayList<String>();
-        list.add("ผ้าม่านเมืองทอง");
-        list.add("ผ้าม่านเมืองเงิน");
-        list.add("ผ้าม่านเมืองทองแดง");
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, list);
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        pcom.setAdapter(dataAdapter);
+    private void addCompunny( View view ){
+        spin_LTD = (Spinner) view.findViewById(R.id.spinComp);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity().getBaseContext(),
+                R.array.compuny, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+        spin_LTD.setAdapter(adapter);
     }
-
-
-
-
-    @Override
-    public void onBackPressed() {
-        startActivity(new Intent(RomanBlind.this, curtain.class));
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_cal_curtain2pup, menu);
-        return true;
-    }
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                startActivity(new Intent(RomanBlind.this, settingRomanBlind.class));
-                return true;
-            case R.id.man:
-                final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                alertDialog.setTitle("Ezekiel 25:17");
-
-                alertDialog.setMessage("\"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men.\n" +
-                        "Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children.\n" +
-                        "And I will strike down upon thee with great vengeance and furious anger those who attempt to poison and destroy my brothers. And you will know my name is the Lord when I lay my vengeance upon thee.\"");
-                alertDialog.show();
-
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
-
-
-
 }
 

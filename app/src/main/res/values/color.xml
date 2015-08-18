@@ -3,6 +3,6 @@
     <color name="ColorPrimary">#2196F3</color>
     <color name="ColorPrimaryDark">#0D47A1</color>
     <color name="tabsScrollColor">#FFF</color>
-
+    <color name="textResultColor">#089764</color>
     <color name="holo_blue">#FF33E5B5</color>
 </resources>

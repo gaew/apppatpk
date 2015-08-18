@@ -1,4 +1,4 @@
-package com.first.tripakey.caldecorate.decorate.curtains;
+package com.first.tripakey.caldecorate.decorate.curtains.Eyelet;
 //หลักการตั้งตัวเปรใน java = ชนิดตัวแปร(ย่อ)_ชื่อตัวแปลนั้น
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
@@ -8,8 +8,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,11 +21,12 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.RollerBlind;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class settingEyeletCurtain extends ActionBarActivity {
+public class settingEyeletCurtain extends Fragment {
     //ตั้งตามสูตรต้อม
     private Spinner  setI ;//ตัวดรอบดาวแสดงค่า I
     private EditText  edt_D, edt_E, edt_F, edt_G, edt_H, edt_J ;
@@ -30,25 +35,23 @@ public class settingEyeletCurtain extends ActionBarActivity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setTitle(R.string.setting_eyelte);
-        setContentView(R.layout.activity_setting_eyelet_curtain);
-        addI_spin();//สร้าง spinner
-        chn = (Button) findViewById(R.id.changeSet_button);//ปุ่มบันทึกค่า
-        noChe = (Button) findViewById(R.id.noChSet_button);//ปุ่มใช้ค่ามาตรฐาน
-        edt_D = (EditText) findViewById(R.id.setD_edittext);
-        edt_E = (EditText) findViewById(R.id.setE_edittext);
-        edt_F = (EditText) findViewById(R.id.setF_edittext);
-        edt_G = (EditText) findViewById(R.id.setG_edittext);
-        edt_H = (EditText) findViewById(R.id.setH_edittext);
-        edt_J = (EditText) findViewById(R.id.setJ_edittext);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.activity_setting_eyelet_curtain,container,false);
+        setSpinnerI(v);
+        chn = (Button) v.findViewById(R.id.changeSet_button);//ปุ่มบันทึกค่า
+        noChe = (Button) v.findViewById(R.id.noChSet_button);//ปุ่มใช้ค่ามาตรฐาน
+        edt_D = (EditText) v.findViewById(R.id.setD_edittext);
+        edt_E = (EditText) v.findViewById(R.id.setE_edittext);
+        edt_F = (EditText) v.findViewById(R.id.setF_edittext);
+        edt_G = (EditText) v.findViewById(R.id.setG_edittext);
+        edt_H = (EditText) v.findViewById(R.id.setH_edittext);
+        edt_J = (EditText) v.findViewById(R.id.setJ_edittext);
         //เมื่อกดปุ่มใช้ค่ามาตรฐาน จะกำหนดค่าใน shered preference เป็นค่ามาตรฐาน
         noChe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //เปิดไฟล์ที่ shered preferrence กำหนดค่าที่เป็น default ใว้
-                SharedPreferences sp = getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
+                SharedPreferences sp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putString("My_ValueDtaki",  "2.5");
                 editor.putString("My_ValueEtaki",  "10.0");
@@ -59,11 +62,12 @@ public class settingEyeletCurtain extends ActionBarActivity {
                 editor.putString("My_ValueJtaki",  "50.0");
                 editor.putString("curtainType1taki",  "ม่านจีบ");
                 editor.commit();
-                startActivity(new Intent(settingEyeletCurtain.this, EyeletCurtains.class));
+                Intent intent = new Intent(getActivity(), Eyelet.class);
+                startActivity(intent);
             }
         });
         //แสดงค่าที่บันทึการตั้งค่าใว้ ใน edittext เพื่อทราบในภายหลังว่าเคยตั้งอะไรไว้โดยไปดึงค่าจาก SharedPreferences
-        SharedPreferences sp = getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
+        SharedPreferences sp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
         String stg_sharD = sp.getString("My_ValueDtaki", "2.5");
         edt_D.setText(stg_sharD);
         String stg_sharE = sp.getString("My_ValueEtaki", "10.0");
@@ -78,7 +82,7 @@ public class settingEyeletCurtain extends ActionBarActivity {
         edt_J.setText(stg_sharJ);
         //แสดงตั้ง spinner ที่ค่างใว้
         String stg_sharI = sp.getString("My_ValueItaki", "0.0");
-        setI.setSelection(getIndex(setI, stg_sharI));
+     //  setI.setSelection((setI, stg_sharI););
         //เมื่อกดปุ่มบันทึกการตั้งงค่า
         chn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,11 +100,11 @@ public class settingEyeletCurtain extends ActionBarActivity {
                     sF = edt_F.getText().toString();
                     sG = edt_G.getText().toString();
                     sH = edt_H.getText().toString();
-                    Spinner setI = (Spinner)findViewById(R.id.setI_spin);
+                    Spinner setI = (Spinner)v.findViewById(R.id.setI_spin);
                     String sI = setI.getSelectedItem().toString();
                     sJ = edt_J.getText().toString();
                     //ส่งค่าตัวแปรไปเก็บในไฟล์ SharedPreferences
-                    SharedPreferences sp = getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
+                    SharedPreferences sp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = sp.edit();
                     editor.putString("My_ValueDtaki",  sD);
                     editor.putString("My_ValueEtaki",  sE);
@@ -108,17 +112,20 @@ public class settingEyeletCurtain extends ActionBarActivity {
                     editor.putString("My_ValueGtaki",  sG);
                     editor.putString("My_ValueHtaki",  sH);
                     editor.putString("My_ValueItaki",  sI);
-                    editor.putString("My_ValueJtaki",  sJ);
+                    editor.putString("My_ValueJtaki", sJ);
                     editor.commit();//ส่งการเก็บค่า
-                    startActivity(new Intent(settingEyeletCurtain.this, EyeletCurtains.class));//กลับไปหน้าคำนวน
+
+                    Intent intent = new Intent(getActivity(), Eyelet.class);
+                    startActivity(intent);
                 }
                 //แสดงในกรณี edttext ว่างป้องกันการ error
-                else Toast.makeText(getApplicationContext(), "ต้องใส่ข้อมูลในช่องที่มีเครื่องหมายดอกจัน *", Toast.LENGTH_SHORT).show();
+                else Toast.makeText(getActivity(), "ต้องใส่ข้อมูลในช่องที่มีเครื่องหมายดอกจัน *", Toast.LENGTH_SHORT).show();
             }
         });
+        return v;
     }
     //ฟังชั้นหาตัวอินเด็กของ spinner
-    private int getIndex(Spinner spinner, String myString)
+ /*   private int getIndex(Spinner spinner, String myString)
     {
         int index = 0;
 
@@ -129,41 +136,15 @@ public class settingEyeletCurtain extends ActionBarActivity {
             }
         }
         return index;
-    }
+    }*/
     //สร้าง spinner
-    public void addI_spin() {
-        setI = (Spinner) findViewById(R.id.setI_spin);
-        List<Double> list = new ArrayList<Double>();
-        list.add(0.0);
-        list.add(5.0);
-        list.add(10.0);
-        list.add(15.0);
-        list.add(20.0);
-        list.add(25.0);
-        list.add(30.0);
-        list.add(35.0);
-        list.add(40.0);
-        list.add(45.0);
-        list.add(50.0);
-        list.add(55.0);
-        list.add(60.0);
-        list.add(65.0);
-        list.add(70.0);
-        list.add(75.0);
-        list.add(80.0);
-        list.add(85.0);
-        list.add(90.0);
-        list.add(95.0);
-        list.add(100.0);
 
-        ArrayAdapter<Double> dataAdapter = new ArrayAdapter<Double>(this,android.R.layout.simple_spinner_item, list);
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        setI.setAdapter(dataAdapter);
-    }
-    @Override
-    //เมื่อกดกลับ
-    public void onBackPressed() {
-        startActivity(new Intent(settingEyeletCurtain.this, EyeletCurtains.class));
+    private void setSpinnerI( View view ){
+        setI = (Spinner) view.findViewById(R.id.setI_spin);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity().getBaseContext(),
+                R.array.set_i, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+        setI.setAdapter(adapter);
     }
 
 }
