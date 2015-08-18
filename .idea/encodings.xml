@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Eyelet/Eyelet.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Eyelet/EyeletCurtains.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Eyelet/EyeletPagerAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Eyelet/settingEyeletCurtain.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/PleatdePagerAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/Pleated.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/PleatedCurtains.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/settingPleatedCurtain.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Roman/Roman.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Roman/RomanBlind.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Roman/RomanPagerAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Roman/settingRomanBlind.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pleated.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pleated_curtains.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roman.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roman_blind.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting_eyelet_curtain.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting_pleated_curtain.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting_roman_blind.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/array.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
