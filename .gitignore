@@ -5,9 +5,6 @@
 # Files for the Dalvik VM
 *.dex
 
-#Add by geaw
-*.idea/
-
 # Java class files
 *.class
 
