@@ -34,7 +34,7 @@ import com.google.android.gms.ads.AdView;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-
+///test git stage
 public class EyeletCurtains extends ActionBarActivity {
     /////เริ่ม1 copy แอดส่วนลดตาม
 
