@@ -16,7 +16,7 @@ import com.google.android.gms.ads.AdView;
 
 
 public class MainActivity extends ActionBarActivity {
-
+////testgit
     // Declaring Your View and Variables
 
 
