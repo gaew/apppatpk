@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/menu_ic"
+        android:title="ตั้งค่า" />
+    <item android:id="@+id/man"
+        android:title="@string/man" />
+
+</menu>

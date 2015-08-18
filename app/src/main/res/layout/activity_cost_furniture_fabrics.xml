@@ -1,0 +1,380 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffffff">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.first.triparky.caldecorate.cost1_2"
+        android:background="#ffffffff"
+
+        >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView35"
+                android:layout_column="0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="แบรนด์สินค้า"
+                android:id="@+id/braneInput_textView"
+                android:background="#ffffffff"
+                android:textColor="#1A284F"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/cost1_spin" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/textView13" />
+
+        </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ban_ic"
+                android:focusableInTouchMode="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="รหัสสินค้า"
+                android:id="@+id/codeInput_textView"
+                android:background="#ffffffff"
+                android:textColor="#1A284F" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView54" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="หน้ากว้าง"
+                android:id="@+id/wInput_textView"
+                android:textColor="#1A284F" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/fabWcost1_edt" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ซ.ม."
+                android:id="@+id/textView53"
+                android:textColor="#1A284F"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="*ราคา"
+                android:id="@+id/priceInput_textView"
+                android:textColor="#1A284F" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/price"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="บาท/หลา"
+                android:id="@+id/textView55"
+                android:textColor="#1A284F"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="ส่วนลดหลัก"
+                android:id="@+id/textView5"
+                android:textColor="#1A284F" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/handi1_edittxt"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="%"
+                android:id="@+id/textView56"
+                android:textColor="#1A284F"/>
+        </LinearLayout>
+        <!--เริ่ม  copy ส่วนลดตาม-->
+        <LinearLayout
+            android:id="@+id/discountReq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <!--จบ  copy ส่วนลดตาม-->
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vat"
+                android:layout_column="0"
+                android:textColor="#77aaff"
+                android:layout_weight="1"
+                android:text="แยกภาษี" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="*จำนวนผ้าทั้งหมด"
+                android:id="@+id/textView10"
+                android:textColor="#1A284F" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/fab"
+                android:textColorHint="#afa3a3a3" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="หลา"
+                android:id="@+id/textView57"
+                android:textColor="#1A284F"/>
+        </LinearLayout>
+
+
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="คำนวน"
+                android:id="@+id/cal"
+                android:layout_column="0"
+                android:textColor="#ffffffff"
+                android:textSize="30dp"
+                android:enabled="true"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:background="#27ae60"
+                android:layout_marginBottom="5dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:text="ราคาสุทธิ"
+                android:id="@+id/handOUT_textView"
+                android:layout_column="0"
+                android:textColor="#1A284F"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="ส่วนลด"
+                android:id="@+id/textView11"
+                android:layout_column="1"
+                android:textColor="#1A284F" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/lastHandi_textview"
+                android:layout_column="0"
+                android:textColor="#ffff322b" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="บาท/หลา"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/handLess"
+                android:layout_column="1"
+                android:textColor="#ff491fff" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="บาท/หลา"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="รวมเป็นเงินทั้งสิ้น"
+                android:id="@+id/totalpriceOUT_textView"
+                android:layout_column="0"
+                android:textColor="#1A284F" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:id="@+id/totalPrice_textview"
+                android:layout_column="0"
+                android:textColor="#ffff322b"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="บาท"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+<com.google.android.gms.ads.AdView
+android:id="@+id/adView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ads:adSize="BANNER"
+ads:adUnitId="@string/banner_ad_unit_id"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true">
+</com.google.android.gms.ads.AdView>
+    </RelativeLayout>

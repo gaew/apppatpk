@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_curtain"
+        android:text="ผ้าม่าน"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#3498db"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manmonBt"
+        android:layout_below="@+id/bt_curtain"
+        android:text="ม่านม้วน"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:background="#3498db" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mooliBt"
+        android:layout_below="@+id/manmonBt"
+        android:text="@string/bambooblind"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:background="#3498db" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mooliAlu"
+        android:layout_below="@+id/mooliBt"
+        android:text="มู่ลี่อลูมิเนียม"
+        android:background="#3498db"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chag"
+        android:text="ฉากกันห้อง"
+        android:layout_below="@+id/mooliAlu"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="5dp"
+        android:background="#3498db" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wall"
+        android:text="วอลเปเปอร์"
+        android:layout_below="@+id/chag"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:background="#3498db" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.first.tripakey.caldecorate.manbupsang">
+    <item android:id="@+id/man"
+        android:icon="@drawable/menu_ic"
+        android:title="@string/man" />
+</menu>
