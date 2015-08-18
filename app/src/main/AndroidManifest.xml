@@ -84,6 +84,20 @@
             android:name=".main.Tab3"
             android:label="@string/title_activity_tab3" >
         </activity>
+        <activity
+            android:name=".decorate.curtains.Eyelet.Eyelet"
+            android:label="@string/title_activity_eyelet" >
+        </activity>
+        <activity
+            android:name=".decorate.curtains.Pleated.Pleated"
+            android:label="@string/title_activity_pleated" >
+        </activity>
+        <activity
+            android:name=".decorate.curtains.Roman.Roman"
+            android:label="@string/title_activity_roman" >
+        </activity>
+
+
     </application>
 
 </manifest>

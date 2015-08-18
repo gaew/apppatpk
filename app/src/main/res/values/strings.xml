@@ -81,5 +81,9 @@
     <string name="title_activity_trans_unit">transUnit</string>
     <string name="title_activity_tab3">Tab3</string>
 
+    <string name="title_activity_eyelet">Eyelet</string>
+    <string name="title_activity_pleated">Pleated</string>
+    <string name="title_activity_roman">Roman</string>
+
 
 </resources>
