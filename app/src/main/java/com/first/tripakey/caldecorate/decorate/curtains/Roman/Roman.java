@@ -17,7 +17,7 @@ public class Roman extends AppCompatActivity {
     ViewPager pager;
     RomanPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[] = {"?????","???????"};
+    CharSequence Titles[] =  {"Calculate","Setting"};
     int Numboftabs = 2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

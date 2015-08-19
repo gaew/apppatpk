@@ -28,4 +28,10 @@
         <item>95.0</item>
         <item>100.0</item>
     </string-array>
+
+    <string-array name="title_curtaintab">
+        <item>คำนวน</item>
+        <item>หน้าตั้งค่า</item>
+    </string-array>
+
 </resources>

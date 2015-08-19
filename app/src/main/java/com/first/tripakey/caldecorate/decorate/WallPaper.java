@@ -428,7 +428,7 @@ public class WallPaper extends ActionBarActivity {
                                                   priceHandDoub = priceHandDoub*(100-hand3)/100;
                                               priceHandDoub = priceHandDoub*(100-hand4)/100;
                                               priceHandDoub = priceHandDoub*(100-hand5)/100;
-                                              totalBht= (totalSquare*priceHandDoub) ;
+                                              totalBht= (num*priceHandDoub) ;
 
 
 
@@ -439,7 +439,8 @@ public class WallPaper extends ActionBarActivity {
                                                   priceHandDoub = priceHandDoub + priceHandDoub * 0.07;
                                               }
 
-                                             Double handtoDou= priceDoub-priceHandDoub;
+                                              Double handtoDou= priceDoub-priceHandDoub;
+                                              Double totalprice= totalBht*priceHandDoub;
 
                                               DecimalFormat d2 = new DecimalFormat("0.00");
                                               DecimalFormat d0 = new DecimalFormat("0");
