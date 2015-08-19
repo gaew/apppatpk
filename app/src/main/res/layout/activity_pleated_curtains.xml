@@ -25,23 +25,27 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="แบรด์นสินค้า"
+                android:text="แบรนด์สินค้า"
                 android:id="@+id/braneInput_textView"
                 android:background="#ffffffff"
                 android:textColor="#1A284F"
-                android:layout_weight="2" />
+                android:layout_weight="3" />
 
             <Spinner
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/spinner"
-                android:layout_weight="4" />
+                android:layout_weight="5" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
         </LinearLayout>
 
         <LinearLayout
@@ -52,8 +56,8 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="รหัส"
+                android:layout_weight="3"
+                android:text="รหัสสินค้า"
                 android:id="@+id/codeInput_textView"
                 android:background="#ffffffff"
                 android:textColor="#1A284F"/>
@@ -61,12 +65,12 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="5"
                 android:id="@+id/codeFab_Edt"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="2" />
 
 
         </LinearLayout>
@@ -80,7 +84,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:text="*หน้ากว้าง"
                 android:id="@+id/wInput_textView"
                 android:textColor="#1A284F" />
@@ -88,7 +92,7 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="5"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/fabricW_edittxt"
@@ -97,10 +101,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ซ.ม."
-                android:id="@+id/textView64" />
+                android:textColor="#1A284F" />
         </TableRow>
 
 
@@ -112,7 +116,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:text="*ราคา"
                 android:id="@+id/priceInput_textView"
                 android:layout_column="0"
@@ -121,7 +125,7 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="5"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/priceInt_edittxt"
@@ -130,10 +134,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="บาท/หลา"
-                android:id="@+id/textView66" />
+                android:textColor="#1A284F" />
         </LinearLayout>
 
         <!--เริ่ม  copy ส่วนลดตาม-->
@@ -145,7 +149,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ส่วนลดหลัก"
                 android:textColor="#1A284F"
@@ -154,20 +158,19 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="5"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/handi1_edittxt"
-                android:layout_column="0"
-                android:textColorHint="#afa3a3a3" />
+                android:layout_column="0" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="%"
-                android:id="@+id/textView68" />
+                android:textColor="#1A284F" />
 
         </LinearLayout>
 
@@ -191,21 +194,20 @@
             <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:id="@+id/check_vat"
                 android:layout_column="0"
-                android:textColor="#1A284F"
-
+                android:textColor="#77aaff"
                 android:text="แยกภาษี"
                 android:textSize="15dp" />
 
             <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:id="@+id/check_add"
                 android:layout_column="1"
-                android:textColor="#1A284F"
+                android:textColor="#77aaff"
                 android:checked="false"
 
                 android:enabled="true"
@@ -218,7 +220,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*ขนาดหน้าต่าง/ประตู(ซม.)"
+                android:text="*ขนาดหน้าต่าง/ประตู (ซ.ม.)"
                 android:id="@+id/textView10"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
@@ -236,10 +238,17 @@
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/doorW_edittxt"
+                android:textSize="20dp"
                 android:layout_column="0"
                 android:hint="กว้าง"
-                android:textColorHint="#afa3a3a3"
                 />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="X"
+                android:textSize="15dp"
+                android:layout_weight="0.2" />
 
             <EditText
                 android:layout_width="0dp"
@@ -248,22 +257,28 @@
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/doorH_edittxt"
+                android:textSize="20dp"
                 android:layout_column="0"
-                android:hint="สูง"
-                android:textColorHint="#afa3a3a3"
-                 />
+                android:hint="สูง" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                />
+
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:text="จำนวนหน้าต่าง/ประตู"
                 android:id="@+id/textView2"
                 android:layout_column="0"
@@ -272,10 +287,11 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="2.7"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/numWinEdt"
+                android:textSize="20dp"
                 android:layout_column="0"
                 android:autoText="false"
 
@@ -284,10 +300,11 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.6"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ชุด"
-                android:id="@+id/textView69" />
+                android:textColor="#1A284F" />
+
         </LinearLayout>
 
 
@@ -306,8 +323,15 @@
                 android:layout_weight="1"
                 android:background="#27ae60" />
 
-
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -315,35 +339,40 @@
                 android:id="@+id/piceOUT_textView12"
                 android:layout_column="0"
                 android:textColor="#1A284F" />
-
-
+    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:textColor="@color/textResultColor"
+                android:layout_weight="1.5"
+                android:textColor="#ffff322b"
                 android:id="@+id/numM"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="เมตร"/>
+                android:layout_weight="1.5"
+                android:text="เมตร/ชิ้น"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:textColor="#1A284F" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1.5"
                 android:id="@+id/numPiece_textview"
-                android:textColor="@color/textResultColor" />
+                android:textColor="#ffff322b" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:text="ชิ้น"/>
         </LinearLayout>
 
@@ -360,36 +389,43 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1.5"
                 android:id="@+id/thaimetrePiece_textview"
                 android:layout_column="0"
-                android:textColor="@color/textResultColor"/>
+                android:textColor="#ffff322b"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1.5"
                 android:text="หลา"
                 android:id="@+id/longm2OUT_textView"
                 android:layout_column="0"
                 />
-
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
+                android:text="หรือ"
+                android:layout_column="0"
+                android:textColor="#1A284F"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
                 android:id="@+id/metrePiece_textview"
                 android:layout_column="1"
-                android:textColor="@color/textResultColor" />
+                android:textColor="#ff491fff" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:text="เมตร"
                 android:id="@+id/longmOUT_textView"
                 android:layout_column="1"
@@ -413,7 +449,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="2.3"
                 android:text="ส่วนลด"
                 android:id="@+id/textView11"
                 android:layout_column="1"
@@ -423,34 +459,40 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1.5"
                 android:id="@+id/lastHandi_textview"
                 android:layout_column="0"
-                android:textColor="@color/textResultColor" />
+                android:textColor="#ffff322b" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="บาท/หลา"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="บาท/หลา"/>
+                android:layout_column="0"
+                android:textColor="#1A284F"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1.5"
                 android:id="@+id/handLess"
                 android:layout_column="1"
-                android:textColor="@color/textResultColor" />
+                android:textColor="#ff491fff" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="บาท"/>
+                android:layout_weight="3"
+                android:text="บาท/หลา"/>
 
         </LinearLayout>
 
@@ -478,12 +520,13 @@
         android:layout_weight="1"
         android:id="@+id/totalPrice_textview"
         android:layout_column="0"
-        android:textColor="@color/textResultColor"
+        android:textColor="#ffff322b"
         android:textSize="20dp" />
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="3"
+        android:textSize="20dp"
         android:text="บาท"/>
 
 </LinearLayout>
