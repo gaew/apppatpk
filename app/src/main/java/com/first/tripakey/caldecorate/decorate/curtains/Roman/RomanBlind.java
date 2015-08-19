@@ -64,7 +64,7 @@ public class RomanBlind extends Fragment {
 
         SharedPreferences spp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
       //  String stg_sharD = spp.getString("My_ValueD", "2.5");
-        String stg_sharE = spp.getString("My_ValueEpup", "10.0");
+        String stg_sharE = spp.getString("My_ValueEpup", "5.0");
         String stg_sharF = spp.getString("My_ValueFpup", "10.0");
         String stg_sharG = spp.getString("My_ValueGpup", "15.0");
         String stg_sharH = spp.getString("My_ValueHpup", "30.0");

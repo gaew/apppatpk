@@ -70,7 +70,7 @@ public class settingRomanBlind extends Fragment {
         SharedPreferences spp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
       // String stg_sharD = spp.getString("My_ValueD", "2.5");
         //edt_D.setText(stg_sharD);
-        String stg_sharE = spp.getString("My_ValueEpup", "10.0");
+        String stg_sharE = spp.getString("My_ValueEpup", "5.0");
         edt_E.setText(stg_sharE);
         String stg_sharF = spp.getString("My_ValueFpup", "10.0");
         edt_F.setText(stg_sharF);

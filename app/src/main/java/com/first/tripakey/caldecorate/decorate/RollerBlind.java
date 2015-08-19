@@ -159,7 +159,52 @@ public class RollerBlind extends ActionBarActivity {
                     });
                     container.addView(addView);
 
-                } else
+                } else  if ((unit_in.getText().toString().trim().isEmpty())){
+                    //////
+                    LayoutInflater layoutInflater =
+                            (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    final View addView = layoutInflater.inflate(R.layout.wallrow, null);
+                    final TextView textOut1 = (TextView) addView.findViewById(R.id.uw);
+                    textOut1.setText(wild_in.getText().toString());
+                    final TextView textOut2 = (TextView) addView.findViewById(R.id.ul);
+                    textOut2.setText(long_in.getText().toString());
+                    final TextView textOut3 = (TextView) addView.findViewById(R.id.unit);
+                    textOut3.setText("1");
+                    final String[] addWstr = {textOut1.getText().toString()};
+                    final String[] addLstr = {textOut2.getText().toString()};
+                    final Double[] addtotalW = {Double.parseDouble(addWstr[0])};
+                    final Double[] addtotalL = {Double.parseDouble(addLstr[0])};
+                    areaAddU =( areaAddU + ((addtotalW[0] / 100) * (addtotalL[0] / 100)));
+                    DecimalFormat d2 = new DecimalFormat("0.00");
+                    testStr = d2.format(areaAddU);
+                    fabtotal = Double.parseDouble(testStr);
+                    fab.setText(testStr);
+                    wild_in.setText(" ");
+                    long_in.setText(" ");
+                    unit_in.setText(" ");
+                    ImageButton remove = (ImageButton) addView.findViewById(R.id.remove);
+                    remove.setImageResource(R.drawable.delete_ic);
+                    remove.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            String addWstr = textOut1.getText().toString();
+                            String addLstr = textOut2.getText().toString();
+                            addtotalW[0] = Double.parseDouble(addWstr);
+                            addtotalL[0] = Double.parseDouble(addLstr);
+
+                            areaAddU = (areaAddU - ((addtotalW[0] / 100) * (addtotalL[0] / 100)));
+                            DecimalFormat d2 = new DecimalFormat("0.00");
+                            testStr = d2.format(areaAddU);
+                            fabtotal = Double.parseDouble(testStr);
+                            fab.setText(testStr);
+                            ((LinearLayout) addView.getParent()).removeView(addView);
+                        }
+                    });
+                    container.addView(addView);
+                    //////////////
+                }
+
+                else
                     Toast.makeText(getApplicationContext(), "กรุณากรอกข้อมูล", Toast.LENGTH_LONG).show();
             }
         });

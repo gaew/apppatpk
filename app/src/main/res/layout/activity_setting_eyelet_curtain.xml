@@ -52,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:id="@+id/setD_edittext"
+                android:inputType="numberDecimal"
                 android:layout_column="0"
                 android:layout_weight="1"
                 android:hint="2.5 เท่า"
