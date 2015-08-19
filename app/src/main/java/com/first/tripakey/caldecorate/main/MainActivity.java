@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.first_Time.firstTime;
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -40,13 +40,8 @@ public class MainActivity extends ActionBarActivity {
         mAdView.loadAd(adRequest);
 
        // startActivity(new Intent(MainActivity.this, firstTime.class));
-        ///at first time
-        SharedPreferences save_first_time = getPreferences(0);
-        check_firsttime = save_first_time.getBoolean("first_time", false);
-        if(check_firsttime == false){
-            onStop();
-            startActivity(new Intent(MainActivity.this, firstTime.class));
-        }
+
+
 
         //test dialog
 
