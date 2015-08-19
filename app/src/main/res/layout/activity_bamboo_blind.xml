@@ -308,7 +308,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/addSq"
-                android:layout_weight="1.6" />
+                android:layout_weight="1.7" />
         </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -350,6 +350,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
@@ -376,7 +384,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3.5"
+                android:layout_weight="5"
                 android:text="จำนวนพื้นที่ทั้งหมด"
                 android:id="@+id/textView10"
                 android:layout_column="0"
@@ -392,7 +400,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2.5"
+                android:layout_weight="3.9"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ตร.ม."
                 android:id="@+id/textView59" />
@@ -429,7 +437,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="10dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/priceUse"
             android:textColor="#ffff322b"
@@ -439,14 +447,9 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.5"
+            android:layout_weight="1.6"
             android:text="บาท/ตร.ม."/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:id="@+id/textView48"
-            android:layout_weight="0.5" />
+
 
         <TextView
             android:layout_width="0dp"
@@ -480,7 +483,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="10dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.5"
             android:id="@+id/totalBht"
