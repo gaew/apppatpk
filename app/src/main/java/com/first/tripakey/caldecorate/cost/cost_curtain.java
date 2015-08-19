@@ -45,7 +45,7 @@ public class cost_curtain extends ActionBarActivity {
     ///////จบ1 copy แอดส่วนลดตาม
     public Spinner spin_cost1;//แสดงชื้อบริษัทจำหน่ายผ้าม้าน
 
-    static Double priceUse_d;
+    static Double priceUse_d,price_d;
 
 
 
@@ -62,6 +62,8 @@ public class cost_curtain extends ActionBarActivity {
 
         cost1addCompunny();
 
+        priceUse_d = 0.0;
+        price_d=0.0;
         /////เริ่ม2 copy แอดส่วนลดตาม
         onstart=0;
         hand1 = 0.0;

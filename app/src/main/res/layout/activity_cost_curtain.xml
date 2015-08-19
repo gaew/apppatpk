@@ -307,7 +307,7 @@
                 android:layout_width="10dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/lastHandi_textview"
+                android:id="@+id/priceUse"
                 android:layout_column="0"
                 android:textColor="#ffff322b" />
             <TextView
@@ -321,7 +321,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/handLess"
+                android:id="@+id/discount"
                 android:layout_column="1"
                 android:textColor="#ff491fff" />
             <TextView
@@ -355,7 +355,7 @@
                 android:layout_width="10dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.5"
-                android:id="@+id/totalPrice_textview"
+                android:id="@+id/totalBht"
                 android:layout_column="0"
                 android:textColor="#ffff322b"
                 android:textSize="20dp" />
