@@ -9,7 +9,37 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7ce9193-80e1-4522-b7d3-8b9b94cecfe4" name="Default" comment="" />
+    <list default="true" id="c7ce9193-80e1-4522-b7d3-8b9b94cecfe4" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\appcompat_v7_22_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\library_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\mediarouter_v7_22_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_ads_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_analytics_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_appindexing_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_appinvite_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_appstate_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_base_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_cast_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_drive_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_fitness_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_games_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_gcm_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_identity_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_location_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_maps_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_nearby_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_panorama_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_plus_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_safetynet_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_vision_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_wallet_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\play_services_wearable_7_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\support_annotations_22_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\tpk-caldecorate\.idea\libraries\support_v4_22_2_1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="caldecorate.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +92,8 @@
       <file leaf-file-name="tab_1.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8660377">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.38490567">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -78,7 +108,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Gaew" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -1435,6 +1465,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="C:\Users\gaewgan\Desktop\tpk-caldecorate" value="4319886716096" />
         <entry key="C:\Users\gaewgan\Google Drive\andriod\tpk-caldecorate" value="4319746007590" />
         <entry key="C:\project\caldecorate" value="4319524716000" />
       </map>
@@ -1815,7 +1846,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -1827,8 +1859,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2146,6 +2177,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pleated.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2238,10 +2299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.27906978">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="e#1674#1675#0" expanded="false" />
-            <element signature="e#1713#1714#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2277,8 +2334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8660377">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.38490567">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
         </state>
       </provider>
