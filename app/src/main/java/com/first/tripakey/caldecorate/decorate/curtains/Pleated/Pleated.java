@@ -17,7 +17,7 @@ public class Pleated extends AppCompatActivity {
     ViewPager pager;
     PleatdePagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[] = {"?????", "???????"};
+    CharSequence Titles[] =  {"Calculate","Setting"};
     int Numboftabs = 2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

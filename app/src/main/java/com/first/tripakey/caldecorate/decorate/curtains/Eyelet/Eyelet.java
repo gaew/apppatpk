@@ -17,7 +17,7 @@ public class Eyelet extends AppCompatActivity {
     ViewPager pager;
     EyeletPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[] = {"?????", "???????"};
+    ;CharSequence Titles[] = {"Calculate","Setting"};
     int Numboftabs = 2;
 
     @Override
