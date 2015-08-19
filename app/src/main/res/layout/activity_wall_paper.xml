@@ -552,7 +552,7 @@
                 android:id="@+id/Msquare"
                 android:layout_column="0"
                 android:textColor="#ffff322b"
-                android:layout_weight="1.1" />
+                android:layout_weight="1.5" />
 
             <TextView
                 android:layout_width="0dp"
@@ -560,7 +560,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ตร.ม."
                 android:id="@+id/textView18"
-                android:layout_weight="2" />
+                android:layout_weight="1.5" />
 
 
 
@@ -617,12 +617,12 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/discount"
                 android:textColor="#ff491fff"
-                android:layout_weight="1.1" />
+                android:layout_weight="1.5" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="บาท/ม้วน"
-                android:layout_weight="2" />
+                android:layout_weight="1.5" />
 
         </LinearLayout>
 
@@ -653,7 +653,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="10dp"
+                android:layout_width="15dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/NumWall"
@@ -671,14 +671,14 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/sparWall"
-                android:layout_weight="1"
+                android:layout_weight="1.4"
                 android:enabled="false"
                 android:focusableInTouchMode="false"
                 android:textColor="#000bff" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1.5"
                 android:text="ม้วน"/>
         </LinearLayout>
 
@@ -707,7 +707,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="20dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:id="@+id/BthTotal"
