@@ -67,7 +67,7 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2182,7 +2182,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439976045943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="before get tom branch">
+      <created>1439983724880</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1439983724880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2236,7 +2242,8 @@
     <MESSAGE value="go to geaw" />
     <MESSAGE value=" merge master with gaew" />
     <MESSAGE value="edit id test cost curtain .It's  miss class" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit id test cost curtain .It's  miss class" />
+    <MESSAGE value="before get tom branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="before get tom branch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2577,7 +2584,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_room_partition.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2588,7 +2595,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roller_blind.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
