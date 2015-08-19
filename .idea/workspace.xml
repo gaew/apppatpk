@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ce9193-80e1-4522-b7d3-8b9b94cecfe4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="caldecorate.iws" />
@@ -65,8 +64,8 @@
       <file leaf-file-name="tab_1.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9622642">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.2245283">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2077,7 +2076,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439962501314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="unIgnore .idea/">
+      <created>1439963040576</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1439963040576</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2130,7 +2135,8 @@
     <MESSAGE value="-trypaky" />
     <MESSAGE value="go to geaw" />
     <MESSAGE value="up to geaw remote branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="up to geaw remote branch" />
+    <MESSAGE value="unIgnore .idea/" />
+    <option name="LAST_COMMIT_MESSAGE" value="unIgnore .idea/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2314,8 +2320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9622642">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.2245283">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
