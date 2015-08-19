@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bt_curtain"
-        android:text="ผ้าม่าน"
+        android:text="ผ้าม่าน-Git test"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:background="#3498db"
