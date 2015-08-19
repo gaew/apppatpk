@@ -61,14 +61,15 @@
                 android:ems="10"
                 android:id="@+id/setE_edittext"
                 android:layout_column="0"
-                android:hint="10 ซ.ม."
+                android:hint="5 ซ.ม."
                 android:textColorHint="#afa3a3a3"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textColor="#f39c12" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#fff"
                 android:text="ซ.ม."/>
         </LinearLayout>
 
@@ -99,12 +100,13 @@
                 android:layout_column="0"
                 android:hint="10 ซ.ม."
                 android:textColorHint="#afa3a3a3"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textColor="#f39c12" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#fff"
                 android:text="ซ.ม."/>
         </LinearLayout>
 
@@ -135,12 +137,13 @@
                 android:layout_column="0"
                 android:hint="15 ซ.ม."
                 android:textColorHint="#afa3a3a3"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textColor="#f39c12" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#fff"
                 android:text="ซ.ม."/>
         </LinearLayout>
 
@@ -171,12 +174,13 @@
                 android:layout_column="0"
                 android:hint="30 ซ.ม."
                 android:textColorHint="#afa3a3a3"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:textColor="#f39c12" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#fff"
                 android:text="ซ.ม."/>
         </LinearLayout>
 
@@ -187,7 +191,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="เผื่อจำนวนผ้า(%)"
+                android:text="เผื่อจำนวนผ้า (%)"
                 android:id="@+id/textView9"
                 android:layout_column="0"
                 android:textColor="#fff" />
@@ -195,7 +199,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <Spinner
@@ -203,11 +207,12 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/setI_spin"
                 android:layout_column="0"
-                android:layout_weight="2" />
+                android:layout_weight="1" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#fff"
                 android:text="%."/>
         </LinearLayout>
 
