@@ -19,8 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ce9193-80e1-4522-b7d3-8b9b94cecfe4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/cost/cost_curtain.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/cost/cost_curtain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="caldecorate.iws" />
@@ -75,7 +75,7 @@
       <file leaf-file-name="tab_1.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.4827585">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
               <folding />
             </state>
@@ -89,17 +89,43 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/cost/cost_curtain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="71" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="71" />
+              <caret line="80" column="71" selection-start-line="80" selection-start-column="63" selection-end-line="80" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_cost_curtain.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_cost_curtain.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1754717">
-              <caret line="334" column="21" selection-start-line="334" selection-start-column="21" selection-end-line="334" selection-end-column="21" />
+            <state vertical-scroll-proportion="-6.448276">
+              <caret line="309" column="41" selection-start-line="309" selection-start-column="33" selection-end-line="309" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_cost_furniture_fabrics.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2981132">
+              <caret line="301" column="0" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_cost_wallpaper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.172414">
+              <caret line="342" column="41" selection-start-line="342" selection-start-column="41" selection-end-line="342" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -1471,7 +1497,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\gaewgan\Desktop\tpk-caldecorate" value="4319897498542" />
+        <entry key="C:\Users\gaewgan\Desktop\tpk-caldecorate" value="4319899964515" />
         <entry key="C:\Users\gaewgan\Google Drive\andriod\tpk-caldecorate" value="4319746007590" />
         <entry key="C:\project\caldecorate" value="4319524716000" />
       </map>
@@ -1819,7 +1845,16 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/cost/cost_curtain.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -1855,8 +1890,8 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2236,6 +2271,55 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/cost/cost_curtain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="71" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="334" column="21" selection-start-line="334" selection-start-column="21" selection-end-line="334" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pleated.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding />
         </state>
@@ -2421,7 +2505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.4827585">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding />
         </state>
@@ -2433,15 +2517,37 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/cost/cost_curtain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="71" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="71" />
+          <caret line="80" column="71" selection-start-line="80" selection-start-column="63" selection-end-line="80" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.172414">
+          <caret line="342" column="41" selection-start-line="342" selection-start-column="41" selection-end-line="342" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1754717">
-          <caret line="334" column="21" selection-start-line="334" selection-start-column="21" selection-end-line="334" selection-end-column="21" />
+        <state vertical-scroll-proportion="-6.448276">
+          <caret line="309" column="41" selection-start-line="309" selection-start-column="33" selection-end-line="309" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2981132">
+          <caret line="301" column="0" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
           <folding />
         </state>
       </provider>
