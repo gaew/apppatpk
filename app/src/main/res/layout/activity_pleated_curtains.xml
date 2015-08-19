@@ -372,7 +372,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2.5"
                 android:text="ชิ้น"/>
         </LinearLayout>
 
@@ -425,7 +425,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2.5"
                 android:text="เมตร"
                 android:id="@+id/longmOUT_textView"
                 android:layout_column="1"
@@ -440,7 +440,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:text="ราคาสุทธิ"
                 android:id="@+id/handOUT_textView"
                 android:layout_column="0"
@@ -449,7 +449,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2.3"
+                android:layout_weight="1"
                 android:text="ส่วนลด"
                 android:id="@+id/textView11"
                 android:layout_column="1"
@@ -491,7 +491,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="2.5"
                 android:text="บาท/หลา"/>
 
         </LinearLayout>
@@ -525,7 +525,7 @@
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:textSize="20dp"
         android:text="บาท"/>
 
