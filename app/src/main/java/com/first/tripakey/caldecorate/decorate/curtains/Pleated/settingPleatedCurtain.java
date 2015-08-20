@@ -21,10 +21,12 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
+import com.first.tripakey.caldecorate.decorate.curtains.Roman.Roman;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +54,7 @@ public class settingPleatedCurtain extends Fragment {
         edt_J = (EditText) v.findViewById(R.id.setJ_edittext);
         //เมื่อกดปุ่มใช้ค่ามาตรฐาน จะกำหนดค่าใน shered preference เป็นค่ามาตรฐาน
 
-
+      final   Spinner setI = (Spinner)v.findViewById(R.id.setI_spin);
 
 
 
@@ -109,8 +111,15 @@ public class settingPleatedCurtain extends Fragment {
                     sF = edt_F.getText().toString();
                     sG = edt_G.getText().toString();
                     sH = edt_H.getText().toString();
-                    Spinner setI = (Spinner)v.findViewById(R.id.setI_spin);
+
+
+                    //
+                   // Integer indexValue = setI.getSelectedItemPosition();
+                   // indexValue=((indexValue*5)-5);
+                   // String sI = Integer.toString(indexValue);
+
                     String sI = setI.getSelectedItem().toString();
+
                     sJ = edt_J.getText().toString();
                     //ส่งค่าตัวแปรไปเก็บในไฟล์ SharedPreferences
                     SharedPreferences sp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
@@ -153,5 +162,8 @@ public class settingPleatedCurtain extends Fragment {
         adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         setI.setAdapter(adapter);
     }
-
+    public void onBackPressed() {
+        Intent intent = new Intent(getActivity(), Pleated.class);
+        startActivity(intent);
+    }
 }

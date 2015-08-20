@@ -46,6 +46,8 @@ public class settingEyeletCurtain extends Fragment {
         edt_G = (EditText) v.findViewById(R.id.setG_edittext);
         edt_H = (EditText) v.findViewById(R.id.setH_edittext);
         edt_J = (EditText) v.findViewById(R.id.setJ_edittext);
+
+        final  Spinner setI = (Spinner)v.findViewById(R.id.setI_spin);
         //เมื่อกดปุ่มใช้ค่ามาตรฐาน จะกำหนดค่าใน shered preference เป็นค่ามาตรฐาน
         noChe.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,7 +84,7 @@ public class settingEyeletCurtain extends Fragment {
         edt_J.setText(stg_sharJ);
         //แสดงตั้ง spinner ที่ค่างใว้
         String stg_sharI = sp.getString("My_ValueItaki", "0.0");
-     //  setI.setSelection((setI, stg_sharI););
+        setI.setSelection(getIndex(setI, stg_sharI));
         //เมื่อกดปุ่มบันทึกการตั้งงค่า
         chn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -100,7 +102,7 @@ public class settingEyeletCurtain extends Fragment {
                     sF = edt_F.getText().toString();
                     sG = edt_G.getText().toString();
                     sH = edt_H.getText().toString();
-                    Spinner setI = (Spinner)v.findViewById(R.id.setI_spin);
+
                     String sI = setI.getSelectedItem().toString();
                     sJ = edt_J.getText().toString();
                     //ส่งค่าตัวแปรไปเก็บในไฟล์ SharedPreferences
@@ -119,7 +121,7 @@ public class settingEyeletCurtain extends Fragment {
                     startActivity(intent);
                 }
                 //แสดงในกรณี edttext ว่างป้องกันการ error
-                else Toast.makeText(getActivity(), "ต้องใส่ข้อมูลในช่องที่มีเครื่องหมายดอกจัน *", Toast.LENGTH_SHORT).show();
+                else Toast.makeText(getActivity(), "ต้องใส่ข้อมูลให้ครบทุกช่องเมื่อแก้ไขตั้งค่า", Toast.LENGTH_SHORT).show();
             }
         });
         return v;
@@ -145,6 +147,22 @@ public class settingEyeletCurtain extends Fragment {
                 R.array.set_i, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         setI.setAdapter(adapter);
+    }
+    private int getIndex(Spinner spinner, String myString) {
+        int index = 0;
+
+        for (int i = 0; i < spinner.getCount(); i++) {
+            if (spinner.getItemAtPosition(i).toString().equalsIgnoreCase(myString)) {
+                index = i;
+                i = spinner.getCount();//will stop the loop, kind of break, by making condition false
+            }
+        }
+        return index;
+    }
+
+    public void onBackPressed() {
+        Intent intent = new Intent(getActivity(), Eyelet.class);
+        startActivity(intent);
     }
 
 }

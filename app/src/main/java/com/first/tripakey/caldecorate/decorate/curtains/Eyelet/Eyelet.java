@@ -1,19 +1,17 @@
 package com.first.tripakey.caldecorate.decorate.curtains.Eyelet;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
-
 import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.curtain;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 
-public class Eyelet extends AppCompatActivity {
+public class Eyelet extends ActionBarActivity {
     ViewPager pager;
     EyeletPagerAdapter adapter;
     SlidingTabLayout tabs;
@@ -49,6 +47,10 @@ public class Eyelet extends AppCompatActivity {
 
         // Setting the ViewPager For the SlidingTabsLayout
         tabs.setViewPager(pager);
+    }
+
+    public void onBackPressed() {
+        startActivity(new Intent(Eyelet.this, curtain.class));
     }
 }
 

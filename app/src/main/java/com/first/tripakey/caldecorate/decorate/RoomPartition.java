@@ -157,7 +157,9 @@ public class RoomPartition extends ActionBarActivity {
                     });
                     container.addView(addView);
 
-                } else  if ((unit_in.getText().toString().trim().isEmpty())){
+                } else  if ((!wild_in.getText().toString().trim().isEmpty()) &&
+                        (!long_in.getText().toString().trim().isEmpty())&&
+                        (unit_in.getText().toString().trim().isEmpty())){
                     //////
                     LayoutInflater layoutInflater =
                             (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -203,7 +205,7 @@ public class RoomPartition extends ActionBarActivity {
                 }
 
                 else
-                    Toast.makeText(getApplicationContext(), "กรุณากรอกข้อมูล", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "กรุณากรอกข้อมูล กว้าง สูง", Toast.LENGTH_LONG).show();
             }
         });
 

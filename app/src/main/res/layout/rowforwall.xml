@@ -24,7 +24,7 @@
         android:layout_column="1" />
 
     <ImageButton
-        style="?android:attr/buttonStyleSmall"
+        android:background="#FFFFFF"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/remove"

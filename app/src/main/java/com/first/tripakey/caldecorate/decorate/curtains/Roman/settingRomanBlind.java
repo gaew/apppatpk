@@ -21,6 +21,8 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.curtain;
+import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
 import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
 
 import java.util.ArrayList;
@@ -46,6 +48,8 @@ public class settingRomanBlind extends Fragment {
         edt_G = (EditText) v.findViewById(R.id.setG_edittext);
         edt_H = (EditText) v.findViewById(R.id.setH_edittext);
      //   edt_J = (EditText) findViewById(R.id.setJ_edittext);
+
+        final  Spinner setI = (Spinner)v.findViewById(R.id.setI_spin);
         //เมื่อกดปุ่มใช้ค่ามาตรฐาน จะกำหนดค่าใน shered preference เป็นค่ามาตรฐาน
         noChe.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,7 +86,7 @@ public class settingRomanBlind extends Fragment {
        // edt_J.setText(stg_sharJ);
         //แสดงตั้ง spinner ที่ค่างใว้
         String stg_sharI = spp.getString("My_ValueIpup", "0.0");
-      //  setI.setSelection(getIndex(setI, stg_sharI));
+        setI.setSelection(getIndex(setI, stg_sharI));
         //เมื่อกดปุ่มบันทึกการตั้งงค่า
         chn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,7 +101,7 @@ public class settingRomanBlind extends Fragment {
                     sF = edt_F.getText().toString();
                     sG = edt_G.getText().toString();
                     sH = edt_H.getText().toString();
-                    Spinner setI = (Spinner)v.findViewById(R.id.setI_spin);
+
                     String sI = setI.getSelectedItem().toString();
                   //  sJ = edt_J.getText().toString();
                     //ส่งค่าตัวแปรไปเก็บในไฟล์ SharedPreferences
@@ -140,6 +144,11 @@ public class settingRomanBlind extends Fragment {
                 R.array.set_i, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         setI.setAdapter(adapter);
+    }
+
+    public void onBackPressed() {
+        Intent intent = new Intent(getActivity(), Roman.class);
+        startActivity(intent);
     }
 
 

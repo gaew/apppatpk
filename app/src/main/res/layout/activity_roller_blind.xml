@@ -333,7 +333,7 @@
                 android:hint="1 ชุด" />
 
             <ImageButton
-                style="?android:attr/buttonStyleSmall"
+                android:background="#FFFFFF"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/addSq"
