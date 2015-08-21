@@ -401,9 +401,19 @@ public class BambooBlind extends ActionBarActivity {
                     Double discount_d=price_d-priceUse_d;
                     Double totalBht_d=priceUse_d*fabtotal;
                     Double motor_d=0.0;
+                    Double motor_unit ;
                     if(motorBoolin==true){
                         if  (!motor.getText().toString().trim().isEmpty()){
                             motor_d = Double.parseDouble(motor.getText().toString());
+                        /////
+                            EditText unit_motor =(EditText)findViewById(R.id.UnitMotor);
+
+                            if  (!unit_motor.getText().toString().trim().isEmpty()){
+                                motor_unit = Double.parseDouble(unit_motor.getText().toString());
+                            }else  motor_unit= 1.0;
+
+                            motor_d = motor_d*motor_unit;
+                           ///////
                         }else Toast.makeText(getApplicationContext(),"กรุณากรอกราคามอเตอร์",Toast.LENGTH_SHORT).show();
                         totalBht_d=totalBht_d+motor_d;
 
