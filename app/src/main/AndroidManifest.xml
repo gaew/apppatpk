@@ -96,8 +96,6 @@
             android:name=".decorate.curtains.Roman.Roman"
             android:label="@string/title_activity_roman" >
         </activity>
-
-
     </application>
 
 </manifest>

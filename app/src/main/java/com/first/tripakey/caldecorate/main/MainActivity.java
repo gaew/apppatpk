@@ -1,21 +1,24 @@
 package com.first.tripakey.caldecorate.main;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import com.first.tripakey.caldecorate.R;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 ////testgit
     //test merge with test
 
@@ -28,8 +31,8 @@ public class MainActivity extends ActionBarActivity {
     boolean check_firsttime = false ;
     public static final String PREFS_NAME = "MyPrefsFile";
 
+    SQLiteDatabase mDb;
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -39,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-       // startActivity(new Intent(MainActivity.this, firstTime.class));
+        // startActivity(new Intent(MainActivity.this, firstTime.class));
 
 
 
@@ -95,20 +98,60 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+  public static   class MyDbHelper extends SQLiteOpenHelper {
+        private static final String DB_NAME = "caldecorate";
+        private static final int DB_VERSION = 1;
+        public static final String TABLE_NAME = "fab";
+        public static final String COMPANY = "company";
+        public static final String TYPE = "type";
+        public static final String CODE = "code";
+      public static final String WIDTH = "width";
+      public static final String HIGTH = "higth";
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
+        public MyDbHelper(Context context) {
+            super(context, DB_NAME, null, DB_VERSION);
+        }
 
-            default:
-                return super.onOptionsItemSelected(item);
+        public void onCreate(SQLiteDatabase db) {
+            db.execSQL("CREATE TABLE " + TABLE_NAME + " (_id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                    + COMPANY + " TEXT, " + TYPE + " TEXT, "
+                    + CODE + " TEXT, " + WIDTH + " TEXT, " + HIGTH + " TEXT);");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + "," + WIDTH + "," + HIGTH + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A34','S45','U345');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'D43','65','456');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'T53','44','764');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'S44','36','568');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A87','85','459');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'K87','35','856');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'V45','97','678');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'D54','45','876');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'K84','65','678');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'H78','57','986');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'L87','34','765');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'D56','98','456');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'B78','35','764');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
+                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'P97','54','345');");
+
+        }
+
+        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+            db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
+            onCreate(db);
         }
     }
+
 
 }

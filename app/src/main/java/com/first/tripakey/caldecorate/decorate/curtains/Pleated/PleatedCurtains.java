@@ -6,6 +6,8 @@ package com.first.tripakey.caldecorate.decorate.curtains.Pleated;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -20,6 +22,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -31,9 +34,11 @@ import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtain;
+import com.first.tripakey.caldecorate.main.MainActivity;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+import java.lang.reflect.Array;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -50,44 +55,29 @@ public class PleatedCurtains extends Fragment {
     public Spinner spin_LTD;//spinner บริษัทขายผ้า
     public boolean checkbox_addFab, checkbox_vat;
     static double double_d, double_e, double_f, double_g, double_h, double_i, double_j,
-            double_fabW,//ความกว่างผ้า
-            double_priceInt,//ราคาผ้าต่อหลา
-            double_priceLast,
-            double_priceIntNOhand,//ราคาที่ยังไม่ลดราคา
-            double_handi, double_handi1, double_handi2, double_handi3, double_handi4,double_handi5, //ส่วนลดตาม
-            double_numPiece2,
-            double_doorW, double_doorH,//ความกว้างยาวของหน้าต่าง
-            double_numPiece,//จำนวนชิ้นผ้าที่ต้องใช้
-            double_metreThaiunitPiece,//ความยาวผ้า หลา
-            double_metrePiece,//ความยาวผ้า เมตร
-            double_totalPrice,//ราคาทั้งหมด
-            double_lastHandi, //ลดราคาสุดท้าย
-            double_handless,
-            double_numWin,//จำนวนหน้าต่างที่จะไปคูน
+            double_fabW, double_priceInt,double_priceLast, double_priceIntNOhand, double_numPiece2,
+            double_doorW, double_doorH,
+            double_numPiece, double_metreThaiunitPiece,      double_metrePiece,double_lastHandi, double_handless,  double_numWin,
             double_interNumpice;
-    static EditText edt_doorW, edt_doorH,
-            edt_fabricW,
-            edt_priceInt,
-            edt_handi1, edt_handi2, edt_handi3, edt_handi4, edt_handi5,
-            edt_numWin;
-    static String stg_doorW, stg_doorH,
-            stg_fabricW,
-            stg_priceInt,
-            stg_handi1, stg_handi2, stg_handi3, stg_handi4, stg_handi5,
-            stg_lasthand,
-            stg_lastprice,
-            stg_numWin;
+    static EditText edt_doorW, edt_doorH, edt_fabricW,  edt_priceInt,  edt_numWin;
+    static String stg_doorW, stg_doorH,  stg_fabricW, stg_priceInt,  stg_lasthand,  stg_lastprice,    stg_numWin;
     static TextView txtV_totalPrice,
             txtV_numPiece,
         numM,
             txtV_metrePiece, txtV_thaimetrePiece,
             txtV_lastHandi,
-            txtV_nameCur,
+
             txtV_branIN,
             txtV_codeIN  ,
             txtV_handLess;
     static Button   bt_cal,actionSet;
      static ImageButton      bt_set;
+
+
+    SQLiteDatabase mDb;
+
+
+    Cursor mCursor;
 
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.activity_pleated_curtains, container, false);
@@ -119,7 +109,29 @@ public class PleatedCurtains extends Fragment {
         double_numWin =1;//จำนวนคูนเริมต้นเปน 1 กันคุนได้ 0
 
         double_g=double_g*2.0;
-        addCompunny(v);
+       //////////////////////// select colum database company///////////////////////////// work ok
+
+         MainActivity.MyDbHelper db = new MainActivity.MyDbHelper(getActivity());
+        mDb = db.getWritableDatabase();
+        mCursor = mDb.rawQuery("SELECT "+ MainActivity.MyDbHelper.CODE + " FROM "+  MainActivity.MyDbHelper.TABLE_NAME, null);
+
+        ArrayList<String> dirArray = new ArrayList<String>();
+        mCursor.moveToFirst();
+        while ( !mCursor.isAfterLast() ){
+            dirArray.add(mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.COMPANY)));
+            mCursor.moveToNext();
+        }
+        AutoCompleteTextView code =(AutoCompleteTextView)v.findViewById(R.id.code);
+        ArrayAdapter<String> adapter_code = new ArrayAdapter<String>(getActivity().getApplicationContext(),android.R.layout.simple_list_item_1,dirArray);
+        code.setAdapter(adapter_code);
+
+
+        String company_st[] = getResources().getStringArray(R.array.list_of_company);
+
+        AutoCompleteTextView company =(AutoCompleteTextView)v.findViewById(R.id.company);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(),android.R.layout.simple_list_item_1,company_st);
+        company.setAdapter(adapter);
+
         //เทียบตัวเปนกับ xml
         edt_numWin = (EditText) v.findViewById(R.id.numWinEdt);
         edt_doorW = (EditText) v.findViewById(R.id.doorW_edittxt);
@@ -442,6 +454,17 @@ public class PleatedCurtains extends Fragment {
         adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spin_LTD.setAdapter(adapter);
     }
+
+
+
+
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
 }
 

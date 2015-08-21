@@ -34,4 +34,19 @@
         <item>หน้าตั้งค่า</item>
     </string-array>
 
+    <string-array name="list_of_company">
+        <item>หนุมานคาบผ้า</item>
+        <item>ม่านครองพิภพ</item>
+        <item>ม่านนานปี</item>
+        <item>ม่านมัพมัย</item>
+        <item>ม่านฟ้าไท</item>
+        <item>ม่านไหมแน่น</item>
+        <item>ม่านมัยสัส</item>
+        <item>ม่านมานม่าน</item>
+        <item>american</item>
+        <item>alcaline</item>
+        <item>amplitor</item>
+    </string-array>
+
+
 </resources>
