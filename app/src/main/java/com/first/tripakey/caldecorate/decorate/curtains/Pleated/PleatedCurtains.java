@@ -118,14 +118,14 @@ public class PleatedCurtains extends Fragment {
         ArrayList<String> dirArray = new ArrayList<String>();
         mCursor.moveToFirst();
         while ( !mCursor.isAfterLast() ){
-            dirArray.add(mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.COMPANY)));
+            dirArray.add(mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.CODE)));
             mCursor.moveToNext();
         }
-        AutoCompleteTextView code =(AutoCompleteTextView)v.findViewById(R.id.code);
+      final  AutoCompleteTextView code =(AutoCompleteTextView)v.findViewById(R.id.code);
         ArrayAdapter<String> adapter_code = new ArrayAdapter<String>(getActivity().getApplicationContext(),android.R.layout.simple_list_item_1,dirArray);
         code.setAdapter(adapter_code);
 
-
+//////////
         String company_st[] = getResources().getStringArray(R.array.list_of_company);
 
         AutoCompleteTextView company =(AutoCompleteTextView)v.findViewById(R.id.company);
@@ -136,8 +136,8 @@ public class PleatedCurtains extends Fragment {
         edt_numWin = (EditText) v.findViewById(R.id.numWinEdt);
         edt_doorW = (EditText) v.findViewById(R.id.doorW_edittxt);
         edt_doorH = (EditText) v.findViewById(R.id.doorH_edittxt);
-        edt_fabricW = (EditText) v.findViewById(R.id.fabricW_edittxt);
-        edt_priceInt = (EditText) v.findViewById(R.id.priceInt_edittxt);
+        edt_fabricW = (EditText) v.findViewById(R.id.fabricW_edittxt);////add by database
+        edt_priceInt = (EditText) v.findViewById(R.id.priceInt_edittxt);///add by database
 
 
         txtV_branIN = (TextView) v.findViewById(R.id.braneInput_textView);
@@ -151,18 +151,36 @@ public class PleatedCurtains extends Fragment {
         txtV_thaimetrePiece = (TextView) v.findViewById(R.id.thaimetrePiece_textview);
         txtV_lastHandi = (TextView) v.findViewById(R.id.lastHandi_textview);
         bt_cal = (Button) v.findViewById(R.id.button_cal);
-      //  bt_set = (ImageButton) findViewById(R.id.settingBt);
         final CheckBox c_add = (CheckBox) v.findViewById(R.id.check_add);
         final CheckBox c_vat = (CheckBox) v.findViewById(R.id.check_vat);
-        //ชื่อหัวข้อเอามาจาตัวแปรที่เก็บใว้ก่อนเข้าหน้านี้แล้ว
+        /// add width and price by database
+      //  String price_db = mDb.
+        code.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
-        //กดไปหน้าตั้งค่า
-    //    bt_set.setOnClickListener(new View.OnClickListener() {
-     //       @Override
-    ////        public void onClick(View v) {
-     //           startActivity(new Intent(PleatedCurtains.this, settingPleatedCurtain.class));
-     //       }
-     //   });
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                if ((!code.getText().toString().trim().isEmpty())){
+                   String[] width_db = returnWidth(code.getText().toString());
+                    edt_fabricW.setText(width_db[0]);
+                    edt_priceInt.setText(width_db[1]);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+            }
+        });
+
+
+
+
+
+
         //////เริ่ม3 copy แอดส่วนลดตาม
         container = (LinearLayout)v.findViewById(R.id.container);
         container2= (LinearLayout)v.findViewById(R.id.container2);
@@ -447,24 +465,29 @@ public class PleatedCurtains extends Fragment {
 
 
     //เลือกบริษัท
-    private void addCompunny( View view ){
+   private void addCompunny( View view ){
         spin_LTD = (Spinner) view.findViewById(R.id.spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity().getBaseContext(),
                 R.array.compuny, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spin_LTD.setAdapter(adapter);
     }
-
-
-
-
-
-
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
+public String[] returnWidth(String code){
+    MainActivity.MyDbHelper db = new MainActivity.MyDbHelper(getActivity());
+    mDb = db.getWritableDatabase();
+     String re[] ={"not match","not match"};
+        String price ="not match";
+    code= "'"+code+"'";
+    mCursor = mDb.rawQuery(" SELECT " + MainActivity.MyDbHelper.WIDTH +"," + MainActivity.MyDbHelper.PRICE + " FROM " +  MainActivity.MyDbHelper.TABLE_NAME + " WHERE " +
+            MainActivity.MyDbHelper.CODE + "=" + code ,null);
+    mCursor.moveToFirst();
+if (!mCursor.isBeforeFirst()){
+    re[0] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.WIDTH));
+    re[1] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.PRICE));
+}
+    return re;
+}
 
 }
 

@@ -4,14 +4,14 @@ package com.first.tripakey.caldecorate.main;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.util.Log;
+
 import com.first.tripakey.caldecorate.R;
 
 import com.google.android.gms.ads.AdRequest;
@@ -43,8 +43,11 @@ public class MainActivity extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
         // startActivity(new Intent(MainActivity.this, firstTime.class));
+        MainActivity.MyDbHelper db = new MainActivity.MyDbHelper(this);
+        mDb = db.getWritableDatabase();
+        Cursor mCursor = mDb.rawQuery("SELECT "+ MainActivity.MyDbHelper.CODE + " FROM "+  MainActivity.MyDbHelper.TABLE_NAME, null);
 
-
+        Log.i("Data Count", String.valueOf(mCursor.getCount()));
 
         //test dialog
 
@@ -106,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         public static final String TYPE = "type";
         public static final String CODE = "code";
       public static final String WIDTH = "width";
-      public static final String HIGTH = "higth";
+      public static final String PRICE = "price";
 
         public MyDbHelper(Context context) {
             super(context, DB_NAME, null, DB_VERSION);
@@ -115,35 +118,35 @@ public class MainActivity extends AppCompatActivity {
         public void onCreate(SQLiteDatabase db) {
             db.execSQL("CREATE TABLE " + TABLE_NAME + " (_id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     + COMPANY + " TEXT, " + TYPE + " TEXT, "
-                    + CODE + " TEXT, " + WIDTH + " TEXT, " + HIGTH + " TEXT);");
+                    + CODE + " TEXT, " + WIDTH + " TEXT, " + PRICE + " TEXT);");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + "," + WIDTH + "," + HIGTH + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A34','S45','U345');");
+                    + "," + CODE + "," + WIDTH + "," + PRICE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A001','64','445');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'D43','65','456');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A072','65','456');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'T53','44','764');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A073','44','764');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'S44','36','568');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A054','36','568');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A87','85','459');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A095','85','459');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'K87','35','856');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A026','35','856');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'V45','97','678');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A047','97','678');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'D54','45','876');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'A098','45','876');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'K84','65','678');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'A079','65','678');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'H78','57','986');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A010','57','986');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'L87','34','765');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A012','34','765');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'D56','98','456');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A015','98','456');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'B78','35','764');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A075','35','764');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+HIGTH+") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'P97','54','345');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A014','54','345');");
 
         }
 
