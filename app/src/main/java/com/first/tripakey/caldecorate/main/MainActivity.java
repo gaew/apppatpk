@@ -11,12 +11,9 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-
-import com.first.tripakey.caldecorate.R;
-
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-
+import com.first.tripakey.caldecorate.R;
 
 public class MainActivity extends AppCompatActivity {
 ////testgit

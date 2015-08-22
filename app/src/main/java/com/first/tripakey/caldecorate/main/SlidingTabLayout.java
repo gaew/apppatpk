@@ -34,6 +34,7 @@ package com.first.tripakey.caldecorate.main;
         import android.widget.LinearLayout;
         import android.widget.TextView;
 
+        import com.first.tripakey.caldecorate.R;
         import com.first.tripakey.caldecorate.main.SlidingTabStrip;
 
 /**
@@ -102,6 +103,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
 
         mTabStrip = new SlidingTabStrip(context);
         addView(mTabStrip, LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+
     }
 
     /**
@@ -180,7 +182,9 @@ public class SlidingTabLayout extends HorizontalScrollView {
                 outValue, true);
         textView.setBackgroundResource(outValue.resourceId);
         textView.setAllCaps(true);
-
+        ///
+        textView.setTextColor(getResources().getColor(R.color.tabsScrollColor));
+///////
         int padding = (int) (TAB_VIEW_PADDING_DIPS * getResources().getDisplayMetrics().density);
         textView.setPadding(padding, padding, padding, padding);
 
