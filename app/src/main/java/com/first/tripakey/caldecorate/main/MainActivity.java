@@ -16,9 +16,6 @@ import com.google.android.gms.ads.AdView;
 
 
 public class MainActivity extends ActionBarActivity {
-////testgit
-    //test merge with test
-
 
     ViewPager pager;
     ViewPagerAdapter adapter;
