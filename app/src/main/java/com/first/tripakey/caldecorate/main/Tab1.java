@@ -19,7 +19,7 @@ import com.first.tripakey.caldecorate.decorate.RoomPartition;
 public class Tab1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.tab_1,container,false);
+        View v = inflater.inflate(R.layout.tab_1, container, false);
         Button curtain =(Button)v.findViewById(R.id.bt_curtain);
         Button manmon =(Button)v.findViewById(R.id.manmonBt);
         Button mooli =(Button)v.findViewById(R.id.mooliBt);
@@ -70,7 +70,6 @@ public class Tab1 extends Fragment {
                 startActivity(intent);
             }
         });
-
 
         return v;
     }
