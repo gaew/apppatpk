@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle(R.string.titleMain);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+       /* AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
+*/
         // startActivity(new Intent(MainActivity.this, firstTime.class));
         MainActivity.MyDbHelper db = new MainActivity.MyDbHelper(this);
         mDb = db.getWritableDatabase();

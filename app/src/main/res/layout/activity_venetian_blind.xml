@@ -19,11 +19,6 @@
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:background="#ffffffff">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:id="@+id/freezeAsdBanner" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
@@ -493,13 +488,4 @@
 
         </LinearLayout>
     </ScrollView>
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
-    </com.google.android.gms.ads.AdView>
 </RelativeLayout>

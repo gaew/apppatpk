@@ -24,9 +24,7 @@ public class Pleated extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pleated);
         setTitle(R.string.pleated);
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
         ////
         adapter = new PleatdePagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
 

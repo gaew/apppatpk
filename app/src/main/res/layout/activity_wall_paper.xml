@@ -24,18 +24,6 @@
         android:id="@+id/tatable">
 
 
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:id="@+id/textView45"
-                android:layout_column="0" />
-
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="30dp"
@@ -723,13 +711,4 @@
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
-    </com.google.android.gms.ads.AdView>
 </RelativeLayout>

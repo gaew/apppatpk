@@ -56,9 +56,6 @@ public class costWallpaper extends ActionBarActivity {
         setTitle(R.string.costwall);
         setContentView(R.layout.activity_cost_wallpaper);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         cost1addCompunny();
 

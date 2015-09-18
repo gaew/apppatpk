@@ -23,9 +23,7 @@ public class Eyelet extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eyelet);
         setTitle(R.string.eyelet);
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
         ////set page adaptor
         adapter = new EyeletPagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
 

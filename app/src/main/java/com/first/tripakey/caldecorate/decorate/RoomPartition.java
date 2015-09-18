@@ -58,9 +58,6 @@ public class RoomPartition extends ActionBarActivity {
         setTitle(R.string.roompatition);
         setContentView(R.layout.activity_room_partition);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         cost1addCompunny();
         cost1addhight();

@@ -56,9 +56,7 @@ public class costFurnitureFabrics extends ActionBarActivity {
         setTitle(R.string.costfer);
         setContentView(R.layout.activity_cost_furniture_fabrics);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         cost1addCompunny();
 /////เริ่ม2 copy แอดส่วนลดตาม

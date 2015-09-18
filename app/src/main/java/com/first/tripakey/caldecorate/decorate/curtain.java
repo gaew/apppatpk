@@ -34,9 +34,6 @@ public class curtain extends ActionBarActivity {
         setTitle(R.string.curtain);
         setContentView(R.layout.activity_curtain);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         lsView_curtainType  =  (ListView) findViewById(R.id.lv_curtain);
         arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, array_item);

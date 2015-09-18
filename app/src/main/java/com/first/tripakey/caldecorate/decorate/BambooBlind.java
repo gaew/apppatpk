@@ -58,9 +58,7 @@ public class BambooBlind extends ActionBarActivity {
         setTitle(R.string.bambooblind);
         setContentView(R.layout.activity_bamboo_blind);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         cost1addCompunny();
 /////เริ่ม2 copy แอดส่วนลดตาม

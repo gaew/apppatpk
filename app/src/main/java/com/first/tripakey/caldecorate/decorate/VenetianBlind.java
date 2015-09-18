@@ -69,9 +69,7 @@ public class VenetianBlind extends ActionBarActivity {
         setTitle(R.string.venetianbline);
         setContentView(R.layout.activity_venetian_blind);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         cost1addCompunny();
 

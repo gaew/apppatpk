@@ -72,9 +72,7 @@ public class WallPaper extends ActionBarActivity {
         setContentView(R.layout.activity_wall_paper);
 
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         usetotal=0;
         areaAddU=0;

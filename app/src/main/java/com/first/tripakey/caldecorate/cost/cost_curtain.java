@@ -56,9 +56,7 @@ public class cost_curtain extends ActionBarActivity {
         setTitle(R.string.costcurtain);
         setContentView(R.layout.activity_cost_curtain);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         cost1addCompunny();
 

@@ -56,9 +56,6 @@ public class RollerBlind extends ActionBarActivity {
         setTitle(R.string.rollerblind);
         setContentView(R.layout.activity_roller_blind);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         cost1addCompunny();
 /////เริ่ม2 copy แอดส่วนลดตาม

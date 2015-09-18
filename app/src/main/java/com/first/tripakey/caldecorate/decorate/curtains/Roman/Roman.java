@@ -24,9 +24,7 @@ public class Roman extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_roman);
         setTitle(R.string.romam);
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
         ////
         adapter = new RomanPagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
 
