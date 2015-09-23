@@ -3,24 +3,24 @@ package com.first.tripakey.caldecorate.decorate.curtains.Pleated;
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
 //หน้าคำนวนม้านจีบ
+
+import android.app.Dialog;
 import android.content.Context;
-import android.content.Intent;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Bitmap;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -29,19 +29,17 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.decorate.curtain;
 import com.first.tripakey.caldecorate.main.ImageLoader;
 import com.first.tripakey.caldecorate.main.MainActivity;
 
-import java.lang.reflect.Array;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.List;
 
 public class PleatedCurtains extends Fragment {
     /////เริ่ม1 copy แอดส่วนลดตาม
@@ -52,7 +50,8 @@ public class PleatedCurtains extends Fragment {
     static Double   hand1,hand2,hand3,hand4,hand5;
 
     public  ImageView image;
-
+    public   String[] width_db;
+    public static String image_url;
     ///////จบ1 copy แอดส่วนลดตาม
     public Spinner spin_LTD;//spinner บริษัทขายผ้า
     public boolean checkbox_addFab, checkbox_vat;
@@ -158,6 +157,11 @@ public class PleatedCurtains extends Fragment {
         /// add width and price by database
       //  String price_db = mDb.
         image = (ImageView)v.findViewById(R.id.image_code);
+        image.setImageResource(R.drawable.ban_ic);
+        ///
+
+        //
+
         code.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -167,12 +171,13 @@ public class PleatedCurtains extends Fragment {
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 if ((!code.getText().toString().trim().isEmpty())){
-                   String[] width_db = returnWidth(code.getText().toString());
+
+                    width_db = returnWidth(code.getText().toString());
                     edt_fabricW.setText(width_db[0]);
                     edt_priceInt.setText(width_db[1]);
                     ///////////
                     int loader = R.drawable.ban_ic;
-                    String image_url = width_db[2];
+                    image_url = width_db[2];
                     ImageLoader imgLoader = new ImageLoader(getActivity().getApplicationContext());
                     imgLoader.DisplayImage(image_url, loader, image);
                 }
@@ -185,9 +190,14 @@ public class PleatedCurtains extends Fragment {
         });
 
 
-
-
-
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //
+                showImage();
+                //
+            }
+        });
 
         //////เริ่ม3 copy แอดส่วนลดตาม
         container = (LinearLayout)v.findViewById(R.id.container);
@@ -497,6 +507,41 @@ if (!mCursor.isBeforeFirst()){
 }
     return re;
 }
+
+    public void showImage() {
+        Dialog builder = new Dialog(getActivity());
+        builder.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        builder.getWindow().setBackgroundDrawable(
+                new ColorDrawable(android.graphics.Color.TRANSPARENT));
+        builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialogInterface) {
+                //nothing;
+            }
+        });
+
+        ImageView imageView = new ImageView(getActivity());
+        ////
+        image.setDrawingCacheEnabled(true);
+        image.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+                View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+        image.layout(0, 0,
+                image.getMeasuredWidth(), image.getMeasuredHeight());
+        image.buildDrawingCache(true);
+        Bitmap bmap = Bitmap.createBitmap(image.getDrawingCache());
+        image.setDrawingCacheEnabled(false);
+        ///
+
+        imageView.setImageBitmap(bmap);
+               ///
+        builder.addContentView(imageView, new RelativeLayout.LayoutParams(
+                ViewGroup.LayoutParams.FILL_PARENT,
+                ViewGroup.LayoutParams.FILL_PARENT));
+        builder.show();
+
+
+
+    }
 
 }
 

@@ -69,17 +69,25 @@
                 android:layout_weight="5"
                 android:popupBackground="#000000"
                 android:id="@+id/code"/>
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:id="@+id/image_code" />
+
 
 
         </LinearLayout>
 
 
-        <TableRow
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/image_code" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -108,7 +116,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ซ.ม."
                 android:textColor="#1A284F" />
-        </TableRow>
+        </LinearLayout>
 
 
         <LinearLayout
