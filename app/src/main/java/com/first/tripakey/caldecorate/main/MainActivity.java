@@ -11,8 +11,6 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.first.tripakey.caldecorate.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -107,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
         public static final String CODE = "code";
       public static final String WIDTH = "width";
       public static final String PRICE = "price";
+      public static final String IMAGE = "image";
 
         public MyDbHelper(Context context) {
             super(context, DB_NAME, null, DB_VERSION);
@@ -115,15 +114,15 @@ public class MainActivity extends AppCompatActivity {
         public void onCreate(SQLiteDatabase db) {
             db.execSQL("CREATE TABLE " + TABLE_NAME + " (_id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     + COMPANY + " TEXT, " + TYPE + " TEXT, "
-                    + CODE + " TEXT, " + WIDTH + " TEXT, " + PRICE + " TEXT);");
+                    + CODE + " TEXT, " + WIDTH + " TEXT, " + PRICE + " TEXT, " + IMAGE + " TEXT); ");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + "," + WIDTH + "," + PRICE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A001','64','445');");
+                    + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A001','64','445','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-textiles-briarfield-fabric-eau-du-nil-1.jpg');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A072','65','456');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A002','65','456','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/c/l/clarke-clarke-fabric-deer-f0862-1.jpg');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A073','44','764');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A003','44','764','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-fabric-poppypod-eucalyptus-1.jpg');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A054','36','568');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A004','36','568');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
                     + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A095','85','459');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE

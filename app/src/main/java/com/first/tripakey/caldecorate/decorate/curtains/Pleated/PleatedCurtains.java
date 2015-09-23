@@ -27,6 +27,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -34,9 +35,8 @@ import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtain;
+import com.first.tripakey.caldecorate.main.ImageLoader;
 import com.first.tripakey.caldecorate.main.MainActivity;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 import java.lang.reflect.Array;
 import java.text.DecimalFormat;
@@ -50,6 +50,8 @@ public class PleatedCurtains extends Fragment {
     static EditText   testhand,  field1,field2,field3,field4;
     public  Integer onstart;
     static Double   hand1,hand2,hand3,hand4,hand5;
+
+    public  ImageView image;
 
     ///////จบ1 copy แอดส่วนลดตาม
     public Spinner spin_LTD;//spinner บริษัทขายผ้า
@@ -155,6 +157,7 @@ public class PleatedCurtains extends Fragment {
         final CheckBox c_vat = (CheckBox) v.findViewById(R.id.check_vat);
         /// add width and price by database
       //  String price_db = mDb.
+        image = (ImageView)v.findViewById(R.id.image_code);
         code.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -167,6 +170,11 @@ public class PleatedCurtains extends Fragment {
                    String[] width_db = returnWidth(code.getText().toString());
                     edt_fabricW.setText(width_db[0]);
                     edt_priceInt.setText(width_db[1]);
+                    ///////////
+                    int loader = R.drawable.ban_ic;
+                    String image_url = width_db[2];
+                    ImageLoader imgLoader = new ImageLoader(getActivity().getApplicationContext());
+                    imgLoader.DisplayImage(image_url, loader, image);
                 }
             }
 
@@ -476,15 +484,16 @@ public class PleatedCurtains extends Fragment {
 public String[] returnWidth(String code){
     MainActivity.MyDbHelper db = new MainActivity.MyDbHelper(getActivity());
     mDb = db.getWritableDatabase();
-     String re[] ={"not match","not match"};
-        String price ="not match";
+     String re[] ={" "," "," "};
+        String price =" ";
     code= "'"+code+"'";
-    mCursor = mDb.rawQuery(" SELECT " + MainActivity.MyDbHelper.WIDTH +"," + MainActivity.MyDbHelper.PRICE + " FROM " +  MainActivity.MyDbHelper.TABLE_NAME + " WHERE " +
+    mCursor = mDb.rawQuery(" SELECT " + MainActivity.MyDbHelper.WIDTH +"," + MainActivity.MyDbHelper.PRICE + "," + MainActivity.MyDbHelper.IMAGE + " FROM " +  MainActivity.MyDbHelper.TABLE_NAME + " WHERE " +
             MainActivity.MyDbHelper.CODE + "=" + code ,null);
     mCursor.moveToFirst();
 if (!mCursor.isBeforeFirst()){
     re[0] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.WIDTH));
     re[1] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.PRICE));
+    re[2] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.IMAGE));
 }
     return re;
 }

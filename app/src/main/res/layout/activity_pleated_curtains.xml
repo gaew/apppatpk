@@ -69,10 +69,11 @@
                 android:layout_weight="5"
                 android:popupBackground="#000000"
                 android:id="@+id/code"/>
-            <TextView
+            <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2" />
+                android:layout_weight="2"
+                android:id="@+id/image_code" />
 
 
         </LinearLayout>

@@ -10,9 +10,6 @@ import android.view.MenuItem;
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.EyeletPagerAdapter;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
 public class Pleated extends AppCompatActivity {
     ViewPager pager;
     PleatdePagerAdapter adapter;

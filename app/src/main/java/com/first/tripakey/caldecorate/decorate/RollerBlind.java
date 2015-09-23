@@ -6,10 +6,15 @@ package com.first.tripakey.caldecorate.decorate;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -25,17 +30,17 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import com.first.tripakey.caldecorate.main.ImageLoader;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.URL;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RollerBlind extends ActionBarActivity {
+public class RollerBlind extends AppCompatActivity {
 //////เริ่ม1 copy แอดส่วนลดตาม
 
     LinearLayout    container, container2, discountF;
@@ -91,8 +96,24 @@ public class RollerBlind extends ActionBarActivity {
         container2= (LinearLayout)findViewById(R.id.container2);
         discountF = (LinearLayout)findViewById(R.id.discountReq);
         testhand = (EditText)findViewById(R.id.handi1_edittxt);
+
+
+
+///////////////////////////////////////////////////////////////
         ImageView imgView = (ImageView)findViewById(R.id.ban_ic);
-        imgView.setImageResource(R.drawable.ban_ic);
+       //  imgView.setImageResource(R.drawable.ban_ic);
+
+        int loader = R.drawable.ban_ic;
+        ImageView image = (ImageView) findViewById(R.id.ban_ic);
+        String image_url = "https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-textiles-briarfield-fabric-eau-du-nil-1.jpg";
+        ImageLoader imgLoader = new ImageLoader(getApplicationContext());
+        imgLoader.DisplayImage(image_url, loader, image);
+
+
+//////////////////////////////////////////////
+
+
+
         ImageButton add_sq = (ImageButton)findViewById(R.id.addSq);
         add_sq.setImageResource(R.drawable.add_ic);
 ////add inflater of fabtotal
