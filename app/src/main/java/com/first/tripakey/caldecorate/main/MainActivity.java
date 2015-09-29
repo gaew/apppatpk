@@ -116,33 +116,15 @@ public class MainActivity extends AppCompatActivity {
                     + COMPANY + " TEXT, " + TYPE + " TEXT, "
                     + CODE + " TEXT, " + WIDTH + " TEXT, " + PRICE + " TEXT, " + IMAGE + " TEXT); ");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A001','64','445','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-textiles-briarfield-fabric-eau-du-nil-1.jpg');");
+                    + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', '3LOT2-01','32','64','http://www.tripake.com/image/3LOT2-01.PNG');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A002','65','456','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/c/l/clarke-clarke-fabric-deer-f0862-1.jpg');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', '3LOT2-02','32','64','http://www.tripake.com/image/3LOT2-02.PNG');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A003','44','764','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-fabric-poppypod-eucalyptus-1.jpg');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', '3LOT2-03','32','64','http://www.tripake.com/image/3LOT2-03.PNG');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A004','36','568');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', '3LOT2-04','35','64','http://www.tripake.com/image/3LOT2-04.PNG');");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A095','85','459');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A026','35','856');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A047','97','678');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'A098','45','876');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'A079','65','678');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A010','57','986');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A012','34','765');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A015','98','456');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A075','35','764');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A014','54','345');");
+                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', '3LOT2-05','35','64','http://www.tripake.com/image/3LOT2-05.PNG');");
 
         }
 
