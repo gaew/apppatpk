@@ -3,34 +3,52 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#29d7d7d7"
     android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#29d7d7d7">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#29d7d7d7"
+        android:orientation="vertical">
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bt_curtain"
         android:text="ค่าใช้จ่ายผ้าม่าน"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp"
-        android:background="#f39c12"
+        android:background="@drawable/bottoncost"
         android:textColor="#FFF"
         android:textSize="20dp" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:id="@+id/manmonBt"
         android:layout_below="@+id/bt_curtain"
         android:text="ค่าใช้จ่ายผ้าบุเฟอร์นิเจอร์"
         android:textSize="20dp"
         android:textColor="#FFF"
-        android:layout_marginBottom="5dp"
-        android:background="#f39c12" />
+        android:background="@drawable/bottoncost" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:id="@+id/mooliBt"
         android:layout_below="@+id/manmonBt"
         android:text="ค่าใช้จ่ายวอลเปเปอร์"
         android:textSize="20dp"
         android:textColor="#FFF"
-        android:background="#f39c12" />
+        android:background="@drawable/bottoncost" />
+    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -279,7 +279,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:background="@drawable/curvetop"
+                android:background="@drawable/curveall"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="0dp"

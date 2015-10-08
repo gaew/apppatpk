@@ -357,6 +357,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="X"
+                android:gravity="center"
                 android:textSize="15dp"
                 android:layout_weight="0.5" />
 

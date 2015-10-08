@@ -113,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="10dp"
                     android:layout_weight="5"
-                    android:id="@+id/ban_ic"/>
+                    android:id="@+id/image_code" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -122,16 +122,6 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"/>
             </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:id="@+id/image_code" />
-
-        </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -346,7 +336,7 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0.75"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:gravity="center"
@@ -360,13 +350,14 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="X"
+                android:gravity="center"
                 android:textSize="15dp"
                 android:layout_weight="0.2" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
+                android:layout_weight="0.75"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:gravity="center"
@@ -398,7 +389,7 @@
                     android:paddingTop="15dp"
                     android:layout_weight="1"
                     android:textColor="#1A284F"
-                    android:text="จำนวนชุดผ้าม่าน"  />
+                    android:text="จำนวนผ้าม่าน"  />
 
             <EditText
                 android:layout_width="0dp"
@@ -531,7 +522,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="เมตร/ชิ้น"/>
+                android:text="เมตร"/>
 
             <TextView
                 android:layout_width="0dp"

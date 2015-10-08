@@ -79,7 +79,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="5"
-
+                android:gravity="center"
                 android:ems="10"
                 android:id="@+id/code"
                 android:layout_column="0"/>
@@ -91,6 +91,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 />
         </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -113,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="10dp"
                     android:layout_weight="5"
-                    android:id="@+id/ban_ic"/>
+                    android:id="@+id/image_code" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -121,6 +122,7 @@
                     android:layout_weight="2.5"
                     android:textAppearance="?android:attr/textAppearanceSmall"/>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -145,6 +147,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="5"
                 android:inputType="numberDecimal"
+                android:gravity="center"
                 android:ems="10"
                 android:id="@+id/wfab"
                 android:layout_column="0"/>
@@ -184,6 +187,7 @@
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/priceIn"
+                android:gravity="center"
                 android:layout_column="0"/>
 
             <TextView
@@ -221,6 +225,7 @@
                 android:layout_weight="5"
                 android:inputType="numberDecimal"
                 android:ems="10"
+                android:gravity="center"
                 android:id="@+id/handi1_edittxt"
                 android:layout_column="0"
                 android:textColorHint="#afa3a3a3"/>
@@ -329,7 +334,8 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0.75"
+                android:gravity="center"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/w"
@@ -342,20 +348,21 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="X"
+                android:gravity="center"
                 android:textSize="15dp"
                 android:layout_weight="0.2" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
+                android:layout_weight="0.75"
                 android:inputType="numberDecimal"
                 android:ems="10"
+                android:gravity="center"
                 android:id="@+id/h"
                 android:textSize="20dp"
                 android:layout_column="0"
-                android:hint="สูง"
-                android:textColorHint="#afa3a3a3"/>
+                android:hint="สูง" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -369,7 +376,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:background="@drawable/curvecenter"
+                android:paddingBottom="5dp"
+                android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
 
                 <TextView
@@ -379,7 +387,7 @@
                     android:paddingTop="15dp"
                     android:layout_weight="1"
                     android:textColor="#1A284F"
-                    android:text="จำนวนชุดผ้าม่าน"  />
+                    android:text="จำนวนผ้าม่าน"  />
 
             <EditText
                 android:layout_width="0dp"
@@ -387,6 +395,7 @@
                 android:layout_weight="1.7"
                 android:inputType="number"
                 android:ems="10"
+                android:gravity="center"
                 android:id="@+id/numL"
                 android:textSize="20dp"
                 android:layout_column="0"
@@ -478,13 +487,14 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="เมตร/ชิ้น"/>
+        android:text="เมตร"/>
 
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.8"
         android:id="@+id/totalPiece"
+        android:gravity="center"
         android:layout_column="0"
         android:textColor="#ffff322b" />
     <TextView
@@ -575,6 +585,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/metreOut"
                 android:textColor="#ff491fff"
+                android:gravity="center"
                 android:layout_column="1"
                 android:layout_weight="0.8" />
             <TextView
@@ -650,19 +661,14 @@
                 android:text="บาท/หลา"
                 android:layout_column="0"
                  />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_column="0"
-                android:textColor="#1A284F"
-                />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/discount"
                 android:layout_column="1"
+                android:gravity="center"
                 android:textColor="#ff491fff"
                 android:layout_weight="0.8" />
             <TextView
@@ -701,6 +707,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1.5"
         android:id="@+id/totalBht"
+        android:gravity="center"
         android:layout_column="0"
         android:textSize="20dp"
         android:textColor="#ffff322b"
