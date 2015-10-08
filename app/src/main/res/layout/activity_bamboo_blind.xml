@@ -9,8 +9,7 @@
     android:layout_height="fill_parent"
     android:scrollbars="none"
     android:layout_weight="1"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#29d7d7d7">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -258,18 +257,16 @@
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:layout_weight="3"
-            android:textSize="15dp"
             android:textColor="#1A284F"
             android:text="ภาษีVat 7 %"  />
 
             <CheckBox
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
                 android:id="@+id/vat"
                 android:layout_column="0"
                 android:textColor="#77aaff"
-                android:layout_weight="4"
+                android:layout_weight="7.5"
                 android:textSize="15dp"
                 android:text="แยกภาษี" />
 
@@ -557,7 +554,7 @@
                 android:paddingBottom="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="จำนวนพื้นที่ทั้งหมด"
-                android:textSize="15dp"
+                android:textSize="16dp"
                 android:layout_column="0"
                 android:textColor="#1A284F"/>
             <TextView
@@ -575,8 +572,7 @@
                 android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ตร.ม."
-                android:textSize="15dp"
-                android:id="@+id/textView59" />
+                android:textSize="15dp" />
         </LinearLayout>
 
 
@@ -596,7 +592,7 @@
             android:layout_marginLeft="10dp"
             android:text="ราคาสุทธิ"
             android:id="@+id/handOUT_textView"
-            android:textSize="15dp"
+            android:textSize="16dp"
             android:textColor="#1A284F"
             android:layout_weight="1" />
         <TextView
@@ -609,7 +605,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="ส่วนลด"
-            android:textSize="15dp"
+            android:textSize="16dp"
             android:textColor="#1A284F"
             android:layout_weight="1" />
         <TextView
@@ -677,7 +673,7 @@
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:text="รวมเป็นเงิน"
-            android:textSize="15dp"
+            android:textSize="16dp"
             android:id="@+id/totalpriceOUT_textView"
             android:layout_column="0"
             android:textColor="#1A284F" />

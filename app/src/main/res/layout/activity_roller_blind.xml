@@ -564,7 +564,7 @@
                 android:paddingBottom="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="จำนวนพื้นที่ทั้งหมด"
-                android:textSize="15dp"
+                android:textSize="16dp"
                 android:layout_column="0"
                 android:textColor="#1A284F"/>
             <TextView
@@ -602,7 +602,7 @@
                 android:layout_marginLeft="10dp"
                 android:text="ราคาสุทธิ"
                 android:id="@+id/handOUT_textView"
-                android:textSize="15dp"
+                android:textSize="16dp"
                 android:textColor="#1A284F"
                 android:layout_weight="1" />
             <TextView
@@ -615,7 +615,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="ส่วนลด"
-                android:textSize="15dp"
+                android:textSize="16dp"
                 android:textColor="#1A284F"
                 android:layout_weight="1" />
             <TextView
@@ -684,7 +684,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:text="รวมเป็นเงิน"
-                android:textSize="15dp"
+                android:textSize="16dp"
                 android:id="@+id/totalpriceOUT_textView"
                 android:layout_column="0"
                 android:textColor="#1A284F" />

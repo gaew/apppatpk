@@ -27,14 +27,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="0dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="30dp"
+                    android:layout_width="20dp"
                     android:layout_height="30dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
@@ -84,8 +84,8 @@
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
                     android:src="@drawable/ic_arrow" />
@@ -118,7 +118,7 @@
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="30dp"
+                    android:layout_width="20dp"
                     android:layout_height="30dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
@@ -167,8 +167,8 @@
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
                     android:src="@drawable/ic_arrow" />
@@ -201,7 +201,7 @@
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="30dp"
+                    android:layout_width="20dp"
                     android:layout_height="30dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
@@ -250,8 +250,8 @@
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
                     android:src="@drawable/ic_arrow" />
@@ -284,7 +284,7 @@
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="30dp"
+                    android:layout_width="20dp"
                     android:layout_height="30dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
@@ -333,8 +333,8 @@
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
                     android:paddingTop="10dp"
                     android:paddingLeft="10dp"
                     android:src="@drawable/ic_arrow" />
