@@ -44,25 +44,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53220da1-d6d8-4a20-88cd-b4946060999e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_arrow_1-web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttondefault.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttonsave.xml" />
-      <change type="DELETED" beforePath="C:\Users\206B\Tripaky-project\tpk-caldecorate\app\src\main\res\layout\testlayout.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bamboo_blind.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bamboo_blind.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pleated_curtains.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pleated_curtains.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_roller_blind.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_roller_blind.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_roman_blind.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_roman_blind.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_room_partition.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_room_partition.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_eyelet_curtain.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_eyelet_curtain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_pleated_curtain.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_pleated_curtain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_roman_blind.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_roman_blind.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_venetian_blind.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_venetian_blind.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_wall_paper.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_wall_paper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/tab_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/tab_3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tpk-caldecorate.iws" />
@@ -90,7 +82,44 @@
     <favorites_list name="tpk-caldecorate" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="activity_eyelet_curtains.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.1724138">
+              <caret line="698" column="50" selection-start-line="678" selection-start-column="12" selection-end-line="698" selection-end-column="50" />
+              <folding>
+                <element signature="e#760#795#0" expanded="true" />
+                <element signature="e#829#864#0" expanded="true" />
+                <element signature="e#896#929#0" expanded="true" />
+                <element signature="e#964#997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_roman_blind.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roman_blind.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.019125683">
+              <caret line="701" column="34" selection-start-line="701" selection-start-column="34" selection-end-line="701" selection-end-column="34" />
+              <folding>
+                <element signature="e#760#795#0" expanded="true" />
+                <element signature="e#829#864#0" expanded="true" />
+                <element signature="e#896#929#0" expanded="true" />
+                <element signature="e#964#997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1788,7 +1817,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_imagedialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pleated_curtains.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/PleatedCurtains.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/curvetop.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/curvebutton.xml" />
@@ -1799,15 +1827,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/wallrow.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/discountfield.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/rowforwall.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_venetian_blind.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_roller_blind.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_room_partition.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_wall_paper.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bamboo_blind.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/buttondefault.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/buttonsave.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_tab1.xml" />
@@ -1817,6 +1836,17 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_pleated_curtain.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_eyelet_curtain.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_roman_blind.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bamboo_blind.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_roller_blind.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_room_partition.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_venetian_blind.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_wall_paper.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pleated_curtains.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_roman_blind.xml" />
       </list>
     </option>
   </component>
@@ -2118,7 +2148,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444220842599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edit Setting , tab123, Other">
+      <created>1444278467012</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1444278467012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2127,24 +2163,24 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40166414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40166414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929947" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2793867" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2793867" sideWeight="0.5151286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2793867" sideWeight="0.49092284" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2793867" sideWeight="0.48487142" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20574887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24872231" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24872231" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2196,14 +2232,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edit Blind &amp; Wall Paper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit Blind &amp; Wall Paper" />
+    <MESSAGE value="Edit Setting , tab123, Other" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit Setting , tab123, Other" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2226,13 +2263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2044199">
           <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/PleatedCurtains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="533" column="0" selection-start-line="533" selection-start-column="0" selection-end-line="533" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2301,17 +2331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pleated_curtains.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3251366">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -2452,109 +2471,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roman_blind.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_venetian_blind.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.076503">
-          <caret line="541" column="16" selection-start-line="541" selection-start-column="16" selection-end-line="541" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88251364">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.543716">
-          <caret line="345" column="16" selection-start-line="345" selection-start-column="16" selection-end-line="345" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.008196721">
-          <caret line="429" column="43" selection-start-line="429" selection-start-column="43" selection-end-line="429" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19398907">
-          <caret line="467" column="12" selection-start-line="467" selection-start-column="12" selection-end-line="467" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roller_blind.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4726776">
-          <caret line="558" column="12" selection-start-line="558" selection-start-column="12" selection-end-line="558" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_room_partition.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17759563">
-          <caret line="706" column="43" selection-start-line="706" selection-start-column="43" selection-end-line="706" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wall_paper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4398907">
-          <caret line="932" column="43" selection-start-line="932" selection-start-column="43" selection-end-line="932" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4590163">
-          <caret line="577" column="12" selection-start-line="577" selection-start-column="12" selection-end-line="577" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -2589,17 +2509,6 @@
           <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bamboo_blind.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.551724">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_imagedialog.xml">
@@ -2706,6 +2615,145 @@
             <element signature="e#702#737#0" expanded="true" />
             <element signature="e#765#798#0" expanded="true" />
             <element signature="e#829#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_curtain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65847">
+          <caret line="290" column="47" selection-start-line="290" selection-start-column="47" selection-end-line="290" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_furniture_fabrics.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61202186">
+          <caret line="289" column="46" selection-start-line="289" selection-start-column="46" selection-end-line="289" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cost_wallpaper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4262295">
+          <caret line="319" column="56" selection-start-line="319" selection-start-column="56" selection-end-line="319" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roller_blind.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28688523">
+          <caret line="270" column="52" selection-start-line="270" selection-start-column="52" selection-end-line="270" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_room_partition.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4262295">
+          <caret line="373" column="56" selection-start-line="373" selection-start-column="56" selection-end-line="373" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_venetian_blind.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61202186">
+          <caret line="268" column="42" selection-start-line="268" selection-start-column="42" selection-end-line="268" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wall_paper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65847">
+          <caret line="338" column="47" selection-start-line="338" selection-start-column="47" selection-end-line="338" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/PleatedCurtains.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65847">
+          <caret line="138" column="61" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bamboo_blind.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.068966">
+          <caret line="123" column="23" selection-start-line="94" selection-start-column="7" selection-end-line="123" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pleated_curtains.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65847">
+          <caret line="400" column="42" selection-start-line="400" selection-start-column="42" selection-end-line="400" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_eyelet_curtains.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1724138">
+          <caret line="698" column="50" selection-start-line="678" selection-start-column="12" selection-end-line="698" selection-end-column="50" />
+          <folding>
+            <element signature="e#760#795#0" expanded="true" />
+            <element signature="e#829#864#0" expanded="true" />
+            <element signature="e#896#929#0" expanded="true" />
+            <element signature="e#964#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_roman_blind.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.019125683">
+          <caret line="701" column="34" selection-start-line="701" selection-start-column="34" selection-end-line="701" selection-end-column="34" />
+          <folding>
+            <element signature="e#760#795#0" expanded="true" />
+            <element signature="e#829#864#0" expanded="true" />
+            <element signature="e#896#929#0" expanded="true" />
+            <element signature="e#964#997#0" expanded="true" />
           </folding>
         </state>
       </provider>

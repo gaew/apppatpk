@@ -342,11 +342,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_marginLeft="10dp"
                 android:paddingTop="20dp"
                 android:text="ขนาดมู่ลี่"
-                android:textSize="15dp"
+                android:textColor="#1A284F"
                 android:layout_weight="3" />
 
             <EditText

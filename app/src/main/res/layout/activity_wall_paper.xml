@@ -336,6 +336,7 @@
                     android:layout_marginLeft="10dp"
                     android:paddingTop="20dp"
                     android:text="พื้นที่ติดตั้ง"
+                    android:textColor="#1A284F"
                     android:textSize="15dp"
                     android:layout_weight="1.5" />
 
@@ -532,6 +533,7 @@
                     android:paddingTop="20dp"
                     android:text="พื้นที่ว่าง"
                     android:textSize="15dp"
+                    android:textColor="#1A284F"
                     android:layout_weight="1.5" />
 
             <EditText

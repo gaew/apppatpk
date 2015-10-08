@@ -259,18 +259,16 @@
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:layout_weight="3"
-                android:textSize="15dp"
                 android:textColor="#1A284F"
                 android:text="ภาษีVat 7 %"  />
 
             <CheckBox
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
                 android:id="@+id/vat"
                 android:layout_column="0"
                 android:textColor="#77aaff"
-                android:layout_weight="1"
+                android:layout_weight="7.5"
                 android:text="แยกภาษี" />
         </LinearLayout>
 
@@ -286,12 +284,11 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_marginLeft="10dp"
                     android:paddingTop="20dp"
                     android:paddingBottom="15dp"
                     android:text="*จำนวนผ้าม่าน"
-                    android:textSize="15dp"
+                    android:textColor="#1A284F"
                     android:layout_weight="3" />
 
             <EditText
