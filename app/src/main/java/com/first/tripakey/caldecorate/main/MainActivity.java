@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     ViewPager pager;
     ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[]={"ตกแต่งภายใน","คำนวนค่าใช้จ่าย","แปลงหน่วย"};
-    int Numboftabs =3;
+    CharSequence Titles[]={"ตกแต่งภายใน","ค่าใช้จ่าย","แปลงหน่วย","ค้นหาร้าน"};
+    int Numboftabs =4;
     boolean check_firsttime = false ;
     public static final String PREFS_NAME = "MyPrefsFile";
 

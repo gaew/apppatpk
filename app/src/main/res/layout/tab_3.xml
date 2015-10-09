@@ -18,7 +18,7 @@
             android:layout_weight="1"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingTop="10dp"
             android:paddingBottom="@dimen/activity_vertical_margin"
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:background="#29d7d7d7">
@@ -27,9 +27,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
 
@@ -78,8 +75,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:paddingBottom="5dp"
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
@@ -113,8 +108,6 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
                 <ImageView
@@ -161,8 +154,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:paddingBottom="5dp"
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
@@ -196,8 +187,6 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
                 <ImageView
@@ -244,8 +233,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:paddingBottom="5dp"
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
@@ -279,8 +266,6 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:background="@drawable/curvetop"
                 android:orientation="horizontal">
                 <ImageView
@@ -327,8 +312,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:paddingBottom="5dp"
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">

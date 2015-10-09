@@ -22,7 +22,7 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/bt_curtain"
         android:text="ค่าใช้จ่ายผ้าม่าน"
         android:layout_marginTop="10dp"
@@ -31,7 +31,7 @@
         android:textSize="20dp" />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:id="@+id/manmonBt"
         android:layout_below="@+id/bt_curtain"
@@ -41,7 +41,7 @@
         android:background="@drawable/bottoncost" />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:id="@+id/mooliBt"
         android:layout_below="@+id/manmonBt"
