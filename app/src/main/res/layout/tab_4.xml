@@ -49,7 +49,7 @@
                     android:gravity="center"
                     android:inputType="numberDecimal"
                     android:background="@drawable/editbox"
-                    android:hint="ค้นหาร้านตกแต่งภายใน"
+                    android:hint="กำลังพัฒนา"
                     android:id="@+id/search" />
 
                 <ImageButton

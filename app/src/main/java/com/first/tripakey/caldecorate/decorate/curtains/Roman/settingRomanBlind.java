@@ -10,7 +10,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,12 +20,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.decorate.curtain;
-import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
-import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class settingRomanBlind extends Fragment {
     //ตั้งตามสูตรต้อม
@@ -58,7 +51,7 @@ public class settingRomanBlind extends Fragment {
                 SharedPreferences spp = getActivity().getSharedPreferences("PREF_NAME", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = spp.edit();
                 editor.putString("My_ValueDpup",  "2.5");
-                editor.putString("My_ValueEpup",  "10.0");
+                editor.putString("My_ValueEpup",  "5.0");
                 editor.putString("My_ValueFpup",  "10.0");
                 editor.putString("My_ValueGpup",  "15.0");
                 editor.putString("My_ValueHpup",  "30.0");

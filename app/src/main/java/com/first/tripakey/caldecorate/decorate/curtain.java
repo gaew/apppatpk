@@ -11,18 +11,15 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
-import com.first.tripakey.caldecorate.Global;
+import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
 import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
 import com.first.tripakey.caldecorate.decorate.curtains.Roman.Roman;
 import com.first.tripakey.caldecorate.main.MainActivity;
-import com.first.tripakey.caldecorate.R;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 public class curtain extends ActionBarActivity {
     String[] array_item = { "ผ้าม่านจีบ", "ผ้าม่านตาไก่", "ผ้าม่านพับ"};
@@ -32,35 +29,34 @@ public class curtain extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(R.string.curtain);
-        setContentView(R.layout.activity_curtain);
+        setContentView(R.layout.activity_curtains);
 
+        Button pleated = (Button)findViewById(R.id.bt_pleated);
+        Button eyelet = (Button)findViewById(R.id.bt_eyelet);
+        Button roman = (Button)findViewById(R.id.bt_roman);
 
-        lsView_curtainType  =  (ListView) findViewById(R.id.lv_curtain);
-        arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, array_item);
-        lsView_curtainType.setAdapter(arrayAdapter);
-        //เมื่อกดเลือก item ในลิสวิวให้ไป activity นั้นและส่งค่าชื่อหัวข้อไปในตัวแปรโกลบอล
-        lsView_curtainType.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        pleated.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                switch (position+1){
-                    case 1:
-                        startActivity(new Intent(curtain.this, Pleated.class));
-                        Global.name_curtain = "ม่านจีบ";
-                        break;
-                    case 2:
-                        startActivity(new Intent(curtain.this, Eyelet.class));
-                        Global.name_curtain = "ม่านตาไก่";
-                        break;
-                    case 3:
-                        startActivity(new Intent(curtain.this, Roman.class));
-                        Global.name_curtain = "ม่านผับ";
-                        break;
-
-
-                }
-
+            public void onClick(View v) {
+                startActivity(new Intent(curtain.this, Pleated.class));
             }
         });
+
+        eyelet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(curtain.this, Eyelet.class));
+            }
+        });
+
+        roman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(curtain.this, Roman.class));
+            }
+        });
+
+
     }
     //กลับไป activity ก่อนหน้านี้
     public void onBackPressed() {

@@ -3,18 +3,13 @@ package com.first.tripakey.caldecorate.decorate.curtains.Roman;
 //หลักการตั้งตัวเปรใน xml  = ชื่อตัวแปลนั้น_ชนิดตัวแปร(ย่อ
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -27,13 +22,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.decorate.curtain;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
 
 public class RomanBlind extends Fragment {
 /////เริ่ม1 copy แอดส่วนลดตาม
@@ -338,8 +328,8 @@ public class RomanBlind extends Fragment {
 
                     totalpeice_tv.setText(d2.format(numPieceInter));
                     numM.setText(d2.format(numPiece));
-                    metreOut_tv.setText(d4.format(metre));
-                    ydOut_tv.setText(d4.format(yd));
+                    metreOut_tv.setText(d2.format(metre));
+                    ydOut_tv.setText(d2.format(yd));
                     priceUse_tv.setText(d2.format(priceUse));
                     discount_tv.setText(d2.format(price-priceUse));
                     totalBht_tv.setText(d2.format(totalBth));
