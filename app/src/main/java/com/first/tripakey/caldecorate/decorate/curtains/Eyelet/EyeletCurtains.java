@@ -4,18 +4,13 @@ package com.first.tripakey.caldecorate.decorate.curtains.Eyelet;
 
 //หน้าคำนวนม้านจีบ
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -29,13 +24,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.first.tripakey.caldecorate.R;
-import com.first.tripakey.caldecorate.decorate.curtain;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
 
 public class EyeletCurtains extends Fragment {
     /////เริ่ม1 copy แอดส่วนลดตาม
@@ -389,8 +379,7 @@ public class EyeletCurtains extends Fragment {
                 String yd = d2.format(double_metreThaiunitPiece);
                 double_metreThaiunitPiece = Double.parseDouble(yd);
 
-                double_priceLast = double_lastHandi * double_metreThaiunitPiece;
-                stg_lastprice = d2.format(double_priceLast);
+
                 //ปัดเลขขึ้นเปนจำนวนเต็ม หรือ 0.5
                 double_numPiece2 = (long) Math.floor(double_numPiece + 0.5d);
                 double_interNumpice = double_numPiece2 - double_numPiece;
@@ -405,7 +394,9 @@ public class EyeletCurtains extends Fragment {
                     double_priceInt = double_priceInt * double_metreThaiunitPiece;
                     // Toast.makeText(getApplicationContext(),"check add",Toast.LENGTH_SHORT).show();
                 }
-
+                //fix price with add fab
+                double_priceLast = double_lastHandi * double_metreThaiunitPiece;
+                stg_lastprice = d2.format(double_priceLast);
                 double_numPiece = double_metrePiece / double_numPiece2;
                 //ตั้งตัวแปรแล้วใช้เลย
                 String numPice2_stg = d2.format(double_numPiece2);

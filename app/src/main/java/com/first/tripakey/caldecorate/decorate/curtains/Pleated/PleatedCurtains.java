@@ -443,8 +443,7 @@ public class PleatedCurtains extends Fragment {
                 String yd =d2.format(double_metreThaiunitPiece);
                 double_metreThaiunitPiece = Double.parseDouble(yd);
 
-                double_priceLast=double_lastHandi*double_metreThaiunitPiece;
-                stg_lastprice = d2.format(double_priceLast);
+
                 //ปัดเลขขึ้นเปนจำนวนเต็ม หรือ 0.5
                 double_numPiece2 = (long) Math.floor(double_numPiece + 0.5d);
                 double_interNumpice = double_numPiece2 - double_numPiece;
@@ -459,7 +458,9 @@ public class PleatedCurtains extends Fragment {
                     double_priceInt = double_priceInt * double_metreThaiunitPiece;
                     // Toast.makeText(getApplicationContext(),"check add",Toast.LENGTH_SHORT).show();
                 }
-
+                //fix error price total with addfab
+                double_priceLast=double_lastHandi*double_metreThaiunitPiece;
+                stg_lastprice = d2.format(double_priceLast);
                 double_numPiece=double_metrePiece/double_numPiece2;
                 //ตั้งตัวแปรแล้วใช้เลย
                 String numPice2_stg = d2.format(double_numPiece2);
