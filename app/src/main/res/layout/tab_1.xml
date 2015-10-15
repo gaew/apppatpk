@@ -103,7 +103,7 @@
             android:paddingBottom="10dp"
             android:background="@drawable/buttondec_l"
             android:layout_weight="0.5"
-            android:src="@drawable/ic_wooden" />
+            android:src="@drawable/ic_venetian" />
     <Button
         android:layout_width="0dp"
         android:layout_height="match_parent"
