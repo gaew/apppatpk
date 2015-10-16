@@ -164,7 +164,54 @@
         android:layout_weight="1.2"
         android:background="@drawable/buttondec_r"/>
     </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/buttondec_l"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_pillow" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:id="@+id/pillow"
+                android:text="หมอน"
+                android:layout_below="@+id/wall"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:layout_weight="1.2"
+                android:background="@drawable/buttondec_r" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/buttondec_l"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_cushion" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cushion"
+                android:text="เบาะลอย"
+                android:layout_below="@+id/pillow"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:layout_weight="1.2"
+                android:background="@drawable/buttondec_r"/>
+        </LinearLayout>
     </LinearLayout>
     </ScrollView>
 </RelativeLayout>
