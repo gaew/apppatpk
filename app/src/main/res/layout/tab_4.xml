@@ -250,7 +250,7 @@
                     android:textSize="15dp"
                     android:background="@drawable/viewbox_c"
                     android:gravity="center"
-                    android:text="ระดับ"/>
+                    android:text="ก.ม."/>
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

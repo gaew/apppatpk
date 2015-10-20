@@ -37,18 +37,16 @@
                     android:layout_weight="1" />
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="170dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:paddingTop="30dp"
                     android:paddingBottom="40dp"
                     android:src="@drawable/ic_e_shop"
-                    android:layout_weight="1"
                     android:background="@drawable/image_profile"/>
 
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="40dp"
-                    android:paddingBottom="0dp"
                     android:background="#29d7d7d7"
                     android:id="@+id/imageButton"
                     android:src="@drawable/edit_ic"
@@ -115,7 +113,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/curvetop"
@@ -225,7 +223,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/curvetop"
@@ -265,6 +263,41 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
+                android:background="@drawable/curvecenter"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="FACBOOK"                    android:textColor="#1A284F" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:gravity="center"
+                    android:textColor="#1A284F" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="3"
+                    android:text="Output"
+                    android:textColor="#1A284F" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/curvebuttom"
                 android:orientation="horizontal">
                 <TextView
@@ -295,7 +328,6 @@
                     android:textColor="#1A284F" />
 
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 
