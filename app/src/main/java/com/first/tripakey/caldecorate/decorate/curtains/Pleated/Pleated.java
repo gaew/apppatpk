@@ -10,17 +10,24 @@ import android.view.MenuItem;
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.EyeletPagerAdapter;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
+
+
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 public class Pleated extends AppCompatActivity {
     ViewPager pager;
     PleatdePagerAdapter adapter;
     SlidingTabLayout tabs;
     CharSequence Titles[] =  {"Calculate","Setting"};
     int Numboftabs = 2;
+
+    private Tracker mTracker;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pleated);
         setTitle(R.string.pleated);
+
 
         ////
         adapter = new PleatdePagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
