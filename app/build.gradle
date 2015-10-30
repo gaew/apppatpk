@@ -32,3 +32,11 @@ dependencies {
     compile 'com.google.android.gms:play-services-analytics:8.1.0'
 
 }
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:1.4.0-beta3'
+    }
+}

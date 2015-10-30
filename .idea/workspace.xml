@@ -105,52 +105,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53220da1-d6d8-4a20-88cd-b4946060999e" name="Default" comment="add profile , map , edit profile">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/AnalyticsApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" />
-      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\appcompat_v7_22_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_wearable_7_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\support_annotations_22_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\support_v4_22_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\tpk-caldecorate.iml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_ads_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_analytics_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_appindexing_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_appinvite_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_appstate_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_base_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_cast_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_drive_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_fitness_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_games_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_games_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_gcm_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_identity_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_location_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_identity_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_maps_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_nearby_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_panorama_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_location_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_plus_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_safetynet_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_vision_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_1_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\play_services_wallet_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/Pleated.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/Pleated.java" />
+    <list default="true" id="53220da1-d6d8-4a20-88cd-b4946060999e" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\gaewgan\Desktop\caldecorate\.idea\libraries\multidex_instrumentation_1_0_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tpk-caldecorate.iws" />
@@ -206,21 +165,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21288015">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state vertical-scroll-proportion="-18.444445">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24329159">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -248,8 +207,8 @@
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\gaewgan\Desktop\kee.jks" />
-    <option name="KEY_ALIAS" value="ggg" />
+    <option name="KEY_STORE_PATH" value="C:\Users\gaewgan\Downloads\passkeyCaldecorate\stoneforcal2.jks" />
+    <option name="KEY_ALIAS" value="gaew" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
@@ -257,6 +216,9 @@
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="active" target-remote="origin" target-branch="active" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -410,10 +372,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="collectDebugAndroidTestMultiDexComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="collectDebugMultiDexComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -516,6 +474,14 @@
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="createDebugMainDexClassList" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="createReleaseMainDexClassList" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceAndroidTest" />
@@ -524,6 +490,18 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -654,6 +632,14 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageAllDebugClassesForMultiDex" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageAllReleaseClassesForMultiDex" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -682,6 +668,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preDexDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -702,11 +692,6 @@
                 <option name="description" value="Prepare com.android.support:multidex:1.0.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportMultidex101Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:multidex-instrumentation:1.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportMultidexInstrumentation101Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:23.0.0" />
@@ -906,6 +891,14 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="shrinkDebugMultiDexComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="shrinkReleaseMultiDexComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="signingReport" />
@@ -929,82 +922,6 @@
                 <option name="description" value="Run unit tests for the release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="testReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithJarMergingForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithJarMergingForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithJarMergingForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithMultidexlistForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithMultidexlistForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithMultidexlistForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
@@ -1109,10 +1026,6 @@
                 <option name="description" value="Deletes the build directory." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="collectDebugAndroidTestMultiDexComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1223,6 +1136,14 @@
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="createDebugMainDexClassList" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="createReleaseMainDexClassList" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="dependencies" />
@@ -1241,6 +1162,18 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dexDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dexDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dexRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1381,6 +1314,14 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="packageAllDebugClassesForMultiDex" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="packageAllReleaseClassesForMultiDex" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="packageDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1409,6 +1350,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preDexDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1429,11 +1374,6 @@
                 <option name="description" value="Prepare com.android.support:multidex:1.0.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportMultidex101Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:multidex-instrumentation:1.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportMultidexInstrumentation101Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:23.0.0" />
@@ -1643,6 +1583,14 @@
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="shrinkDebugMultiDexComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="shrinkReleaseMultiDexComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="signingReport" />
@@ -1671,82 +1619,6 @@
                 <option name="description" value="Run unit tests for the release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="testReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesAndResourcesWithExtractJarsForReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithDexForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithDexForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithJarMergingForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithJarMergingForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithJarMergingForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithMultidexlistForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithMultidexlistForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformClassesWithMultidexlistForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
@@ -1784,7 +1656,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="C:\Users\206B\Tripaky-project\tpk-caldecorate" value="4332594742904" />
-        <entry key="C:\Users\gaewgan\Desktop\caldecorate" value="4338482028056" />
+        <entry key="C:\Users\gaewgan\Desktop\caldecorate" value="4338525460239" />
         <entry key="C:\project\android\tpk-caldecorate" value="4334518842431" />
       </map>
     </option>
@@ -1800,40 +1672,30 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/1.4.0-beta3/f1580f62e3be313eba041ce19b64fd3f44cf8951/google-services-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/1.4.0-beta3/88f294338d2733744a1fcbf3f18f8d4a6d2655cc/google-services-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.4.0-beta3/7cd557dc2eca46423373916f1549cb06cfd7d4da/gradle-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.4.0-beta3/8a820a1054e781a29d15646711be30bc6ab7c33c/gradle-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.4.0-beta3/c8a0533c050995959eb637578b319d8e81de69d8/gradle-core-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.4.0-beta3/d72d47ea84ffe14a86e49cb152257dce4edb8629/gradle-core-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.4.0-beta3/8a0c894a0a194fcee862e7f5c9423f44a6f593aa/builder-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.4.0-beta3/7af860a07e2836dafa5e178d50d61d226cf92282/builder-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.4.0-beta3/99b71f99f55375e5f0172eb1178c4ef2374e9264/lint-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.4.0-beta3/ca25563d7a7fbb5eaa9c208cac63075cd90460a7/lint-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/1.4.0-beta3/d6745260c79d419948e0e958a7c9e57ded9f1d78/transform-api-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/1.4.0-beta3/294b88e9ae7ef838b641a4707033895ccc3a8944/transform-api-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.3.1/f03da49001aa1274822a8265453e496127515e13/gradle-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.3.1/f9f3d53c24efd3b9176ec36aeed9c518954c2fd9/gradle-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.3.1/5b678d9b1656bfd09c39c5c65deb9a0bdf141aaa/gradle-core-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.3.1/70731f5b83a22faa2f25d6281f6812977f64f520/gradle-core-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.3.1/c28ada3461bdfe0e26a3fcd74cd00b80de7e1383/builder-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.3.1/83e6307a43477f2a5ff0b5b654b131425c3dcbc5/builder-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.3.1/6b1dcead03399197796d64b5f891e89f902420ee/lint-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.3.1/57cb2a6361f32753bee3670f072f097840219e34/lint-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.core/0.7.4.201502262128/b6356a696e396a348a673237eee1f496ef75b4b1/org.jacoco.core-0.7.4.201502262128-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.core/0.7.4.201502262128/31482f50411a3a5769b6c78fa9b97ba731c205e7/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.4.0-beta3/946ea27f07c93ef73b1be3e4028dd10c09b71575/builder-model-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.4.0-beta3/f39d6def70ec338536c6412735e741504c140e28/builder-model-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.4.0-beta3/d6d7f44ca25aecad0a4ffc16b279af53ade70fbd/builder-test-api-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.4.0-beta3/a394500df66160d6b360f4198af2624a28916145/builder-test-api-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.4.0-beta3/e16849940ad7cb4b3ea11cde2d817efc5e993ec9/sdklib-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.4.0-beta3/6c02b8a20763e9758b1b2af98c25ebe4bb12e19d/sdklib-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.4.0-beta3/23d93b01801ea88d536d97408689f61eb969705c/sdk-common-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.4.0-beta3/e176ee97ab003000ad234fedef41f1e2ad110086/sdk-common-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.4.0-beta3/6db25a22b2dbd1c410303676b336cea591deb84b/common-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.4.0-beta3/158a9d307a544b606115e089f36e1210d10e4b51/common-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.4.0-beta3/878e9f27a850c148d143c021196c722ccef98f65/manifest-merger-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.4.0-beta3/69bf54305bc1bb1768ec3e764c7cfcf7b9878135/manifest-merger-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.4.0-beta3/3e3caabf448dd1219e92d73ca58d9045f3b2dc73/ddmlib-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.4.0-beta3/d40bae84dad80f93e0f80fc8908b228db0e39748/ddmlib-24.4.0-beta3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.3.1/f25d38149595b9cbc5292b775835e36fb0734e64/builder-model-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.3.1/16c0a3e34af44f31f757144d7c1bf045777dff88/builder-model-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.3.1/2b606649d93d44621961df27488b6598161ed793/builder-test-api-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.3.1/1954d436ec3eeea11070e91e6c808232837728b8/builder-test-api-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.3.1/9ed8ec95c205923234740f78c9937d5c1d073b5e/sdklib-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.3.1/1a4226d7db1381552b94fee30453a08fbfd678a5/sdklib-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.3.1/4d174e34a0a72d0ed6346074d4de009b7dea90f9/sdk-common-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.3.1/5c28ab2dda1600eddaa978e095f0d8c044cac33b/sdk-common-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.3.1/bc53a90f1946a2616a37361d8cbcb79d74819579/common-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.3.1/92f1a60ebb004e2969661315de200232f90e0a80/common-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.3.1/23d3189d5f2eba7c0653f70cc26106e2d9c295f6/manifest-merger-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.3.1/b9b0fc1064f963774beb573469ac371bf0c2c461/manifest-merger-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.3.1/d20b7452c76470b2d4442989fda41fcf9f18dacd/ddmlib-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.3.1/2018ea863b14fe3aeaf2b49316ee98567e1d9c11/ddmlib-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
@@ -1844,22 +1706,22 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.4.0-beta3/5e7d289b4e51225ba5c3b14a82f45d37f9986b31/lint-checks-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.4.0-beta3/148109e18837bbe6c3e698d842e207ee048434f5/lint-checks-24.4.0-beta3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.3.1/606831c23251acf115949306b6c20be19e60a8f9/lint-checks-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.3.1/ee1edb630d923511bb46bef4da148dcb0a74a029/lint-checks-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.4.0-beta3/7f27a3ae2fa93f5b2649d6aa060c10b04fd8f4b/annotations-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.4.0-beta3/f65148470ae18662ab5d2804977f01d42fc0cc8d/annotations-24.4.0-beta3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-debug-all-5.0.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.1/f69b5f7d96cec0d448acf1c1a266584170c9643b/asm-debug-all-5.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.4.0-beta3/f9f668a6fb9e97b25f6683565e908b487f96a20f/layoutlib-api-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.4.0-beta3/8b02d167be04f1744b5b9d2234ee417cf3a7ecc1/layoutlib-api-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.4.0-beta3/e85ec3369e42dd1f7dd7f497aa72284f7e7055a2/dvlib-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.4.0-beta3/750b09f13de71ed9952be1afcc6e033ff51bec8d/dvlib-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.3.1/8cad6d336a2f6bd32d04b251621d375991ba3f49/annotations-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.3.1/3c0f015e74a277e90ca34229458dd767aa39bb30/annotations-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.3.1/46242e3d715941c59be336dbd31cfafae1b68205/layoutlib-api-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.3.1/982783a222369254fce34336cc48155bbd87e3fd/layoutlib-api-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.3.1/40c9bf825ee7a931b096a94d3994f49109b59d1c/dvlib-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.3.1/1d78ec584fb99277e54e849b8ab57b860d590c17/dvlib-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
@@ -1868,10 +1730,12 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.4.0-beta3/d4dabf7781250896493baeca1ed2add39d13e816/lint-api-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.4.0-beta3/defcf762b50f0334df1225f5077e8d0f50f3cc9b/lint-api-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.3.1/ab078c2ba2196e5f4595bdd39701e022d8929976/lint-api-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.3.1/f5666b0d8408e79273a17cbe89c673c98f37b9fa/lint-api-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
@@ -1895,40 +1759,30 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/1.4.0-beta3/f1580f62e3be313eba041ce19b64fd3f44cf8951/google-services-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/1.4.0-beta3/88f294338d2733744a1fcbf3f18f8d4a6d2655cc/google-services-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.4.0-beta3/7cd557dc2eca46423373916f1549cb06cfd7d4da/gradle-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.4.0-beta3/8a820a1054e781a29d15646711be30bc6ab7c33c/gradle-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.4.0-beta3/c8a0533c050995959eb637578b319d8e81de69d8/gradle-core-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.4.0-beta3/d72d47ea84ffe14a86e49cb152257dce4edb8629/gradle-core-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.4.0-beta3/8a0c894a0a194fcee862e7f5c9423f44a6f593aa/builder-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.4.0-beta3/7af860a07e2836dafa5e178d50d61d226cf92282/builder-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.4.0-beta3/99b71f99f55375e5f0172eb1178c4ef2374e9264/lint-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.4.0-beta3/ca25563d7a7fbb5eaa9c208cac63075cd90460a7/lint-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/1.4.0-beta3/d6745260c79d419948e0e958a7c9e57ded9f1d78/transform-api-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/1.4.0-beta3/294b88e9ae7ef838b641a4707033895ccc3a8944/transform-api-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.3.1/f03da49001aa1274822a8265453e496127515e13/gradle-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.3.1/f9f3d53c24efd3b9176ec36aeed9c518954c2fd9/gradle-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.3.1/5b678d9b1656bfd09c39c5c65deb9a0bdf141aaa/gradle-core-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.3.1/70731f5b83a22faa2f25d6281f6812977f64f520/gradle-core-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.3.1/c28ada3461bdfe0e26a3fcd74cd00b80de7e1383/builder-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.3.1/83e6307a43477f2a5ff0b5b654b131425c3dcbc5/builder-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.3.1/6b1dcead03399197796d64b5f891e89f902420ee/lint-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.3.1/57cb2a6361f32753bee3670f072f097840219e34/lint-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.core/0.7.4.201502262128/b6356a696e396a348a673237eee1f496ef75b4b1/org.jacoco.core-0.7.4.201502262128-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.core/0.7.4.201502262128/31482f50411a3a5769b6c78fa9b97ba731c205e7/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.4.0-beta3/946ea27f07c93ef73b1be3e4028dd10c09b71575/builder-model-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.4.0-beta3/f39d6def70ec338536c6412735e741504c140e28/builder-model-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.4.0-beta3/d6d7f44ca25aecad0a4ffc16b279af53ade70fbd/builder-test-api-1.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.4.0-beta3/a394500df66160d6b360f4198af2624a28916145/builder-test-api-1.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.4.0-beta3/e16849940ad7cb4b3ea11cde2d817efc5e993ec9/sdklib-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.4.0-beta3/6c02b8a20763e9758b1b2af98c25ebe4bb12e19d/sdklib-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.4.0-beta3/23d93b01801ea88d536d97408689f61eb969705c/sdk-common-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.4.0-beta3/e176ee97ab003000ad234fedef41f1e2ad110086/sdk-common-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.4.0-beta3/6db25a22b2dbd1c410303676b336cea591deb84b/common-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.4.0-beta3/158a9d307a544b606115e089f36e1210d10e4b51/common-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.4.0-beta3/878e9f27a850c148d143c021196c722ccef98f65/manifest-merger-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.4.0-beta3/69bf54305bc1bb1768ec3e764c7cfcf7b9878135/manifest-merger-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.4.0-beta3/3e3caabf448dd1219e92d73ca58d9045f3b2dc73/ddmlib-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.4.0-beta3/d40bae84dad80f93e0f80fc8908b228db0e39748/ddmlib-24.4.0-beta3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.3.1/f25d38149595b9cbc5292b775835e36fb0734e64/builder-model-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.3.1/16c0a3e34af44f31f757144d7c1bf045777dff88/builder-model-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.3.1/2b606649d93d44621961df27488b6598161ed793/builder-test-api-1.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.3.1/1954d436ec3eeea11070e91e6c808232837728b8/builder-test-api-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.3.1/9ed8ec95c205923234740f78c9937d5c1d073b5e/sdklib-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.3.1/1a4226d7db1381552b94fee30453a08fbfd678a5/sdklib-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.3.1/4d174e34a0a72d0ed6346074d4de009b7dea90f9/sdk-common-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.3.1/5c28ab2dda1600eddaa978e095f0d8c044cac33b/sdk-common-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.3.1/bc53a90f1946a2616a37361d8cbcb79d74819579/common-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.3.1/92f1a60ebb004e2969661315de200232f90e0a80/common-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.3.1/23d3189d5f2eba7c0653f70cc26106e2d9c295f6/manifest-merger-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.3.1/b9b0fc1064f963774beb573469ac371bf0c2c461/manifest-merger-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.3.1/d20b7452c76470b2d4442989fda41fcf9f18dacd/ddmlib-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.3.1/2018ea863b14fe3aeaf2b49316ee98567e1d9c11/ddmlib-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
@@ -1939,22 +1793,22 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.4.0-beta3/5e7d289b4e51225ba5c3b14a82f45d37f9986b31/lint-checks-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.4.0-beta3/148109e18837bbe6c3e698d842e207ee048434f5/lint-checks-24.4.0-beta3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.3.1/606831c23251acf115949306b6c20be19e60a8f9/lint-checks-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.3.1/ee1edb630d923511bb46bef4da148dcb0a74a029/lint-checks-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.4.0-beta3/7f27a3ae2fa93f5b2649d6aa060c10b04fd8f4b/annotations-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.4.0-beta3/f65148470ae18662ab5d2804977f01d42fc0cc8d/annotations-24.4.0-beta3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-debug-all-5.0.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.1/f69b5f7d96cec0d448acf1c1a266584170c9643b/asm-debug-all-5.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.4.0-beta3/f9f668a6fb9e97b25f6683565e908b487f96a20f/layoutlib-api-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.4.0-beta3/8b02d167be04f1744b5b9d2234ee417cf3a7ecc1/layoutlib-api-24.4.0-beta3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.4.0-beta3/e85ec3369e42dd1f7dd7f497aa72284f7e7055a2/dvlib-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.4.0-beta3/750b09f13de71ed9952be1afcc6e033ff51bec8d/dvlib-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.3.1/8cad6d336a2f6bd32d04b251621d375991ba3f49/annotations-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.3.1/3c0f015e74a277e90ca34229458dd767aa39bb30/annotations-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.3.1/46242e3d715941c59be336dbd31cfafae1b68205/layoutlib-api-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.3.1/982783a222369254fce34336cc48155bbd87e3fd/layoutlib-api-24.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.3.1/40c9bf825ee7a931b096a94d3994f49109b59d1c/dvlib-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.3.1/1d78ec584fb99277e54e849b8ab57b860d590c17/dvlib-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
@@ -1963,10 +1817,12 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.4.0-beta3/d4dabf7781250896493baeca1ed2add39d13e816/lint-api-24.4.0-beta3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.4.0-beta3/defcf762b50f0334df1225f5077e8d0f50f3cc9b/lint-api-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.3.1/ab078c2ba2196e5f4595bdd39701e022d8929976/lint-api-24.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.3.1/f5666b0d8408e79273a17cbe89c673c98f37b9fa/lint-api-24.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
@@ -1982,6 +1838,7 @@
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/google/m2repository/com/google/android/gms/play-services-measurement/8.1.0/play-services-measurement-8.1.0.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/android/m2repository/com/android/support/appcompat-v7/23.0.0/appcompat-v7-23.0.0.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/google/m2repository/com/google/android/gms/play-services/8.1.0/play-services-8.1.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/83d41901478fa8795254244acbafd03f14224dab/library-2.4.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/google/m2repository/com/google/android/gms/play-services-ads/8.1.0/play-services-ads-8.1.0.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/google/m2repository/com/google/android/gms/play-services-identity/8.1.0/play-services-identity-8.1.0.aar" />
@@ -2008,6 +1865,46 @@
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/google/m2repository/com/google/android/gms/play-services-wearable/8.1.0/play-services-wearable-8.1.0.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk1/extras/android/m2repository/com/android/support/mediarouter-v7/22.2.0/mediarouter-v7-22.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/1.4.0-beta3/f1580f62e3be313eba041ce19b64fd3f44cf8951/google-services-1.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/1.4.0-beta3/88f294338d2733744a1fcbf3f18f8d4a6d2655cc/google-services-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.4.0-beta3/7cd557dc2eca46423373916f1549cb06cfd7d4da/gradle-1.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.4.0-beta3/8a820a1054e781a29d15646711be30bc6ab7c33c/gradle-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.4.0-beta3/c8a0533c050995959eb637578b319d8e81de69d8/gradle-core-1.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.4.0-beta3/d72d47ea84ffe14a86e49cb152257dce4edb8629/gradle-core-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.4.0-beta3/8a0c894a0a194fcee862e7f5c9423f44a6f593aa/builder-1.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.4.0-beta3/7af860a07e2836dafa5e178d50d61d226cf92282/builder-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.4.0-beta3/99b71f99f55375e5f0172eb1178c4ef2374e9264/lint-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.4.0-beta3/ca25563d7a7fbb5eaa9c208cac63075cd90460a7/lint-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/1.4.0-beta3/d6745260c79d419948e0e958a7c9e57ded9f1d78/transform-api-1.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/1.4.0-beta3/294b88e9ae7ef838b641a4707033895ccc3a8944/transform-api-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.core/0.7.4.201502262128/b6356a696e396a348a673237eee1f496ef75b4b1/org.jacoco.core-0.7.4.201502262128-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.core/0.7.4.201502262128/31482f50411a3a5769b6c78fa9b97ba731c205e7/org.jacoco.core-0.7.4.201502262128.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.4.0-beta3/946ea27f07c93ef73b1be3e4028dd10c09b71575/builder-model-1.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.4.0-beta3/f39d6def70ec338536c6412735e741504c140e28/builder-model-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.4.0-beta3/d6d7f44ca25aecad0a4ffc16b279af53ade70fbd/builder-test-api-1.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.4.0-beta3/a394500df66160d6b360f4198af2624a28916145/builder-test-api-1.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.4.0-beta3/e16849940ad7cb4b3ea11cde2d817efc5e993ec9/sdklib-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.4.0-beta3/6c02b8a20763e9758b1b2af98c25ebe4bb12e19d/sdklib-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.4.0-beta3/23d93b01801ea88d536d97408689f61eb969705c/sdk-common-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.4.0-beta3/e176ee97ab003000ad234fedef41f1e2ad110086/sdk-common-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.4.0-beta3/6db25a22b2dbd1c410303676b336cea591deb84b/common-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.4.0-beta3/158a9d307a544b606115e089f36e1210d10e4b51/common-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.4.0-beta3/878e9f27a850c148d143c021196c722ccef98f65/manifest-merger-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.4.0-beta3/69bf54305bc1bb1768ec3e764c7cfcf7b9878135/manifest-merger-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.4.0-beta3/3e3caabf448dd1219e92d73ca58d9045f3b2dc73/ddmlib-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.4.0-beta3/d40bae84dad80f93e0f80fc8908b228db0e39748/ddmlib-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.4.0-beta3/5e7d289b4e51225ba5c3b14a82f45d37f9986b31/lint-checks-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.4.0-beta3/148109e18837bbe6c3e698d842e207ee048434f5/lint-checks-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.4.0-beta3/7f27a3ae2fa93f5b2649d6aa060c10b04fd8f4b/annotations-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.4.0-beta3/f65148470ae18662ab5d2804977f01d42fc0cc8d/annotations-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-debug-all-5.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.1/f69b5f7d96cec0d448acf1c1a266584170c9643b/asm-debug-all-5.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.4.0-beta3/f9f668a6fb9e97b25f6683565e908b487f96a20f/layoutlib-api-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.4.0-beta3/8b02d167be04f1744b5b9d2234ee417cf3a7ecc1/layoutlib-api-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.4.0-beta3/e85ec3369e42dd1f7dd7f497aa72284f7e7055a2/dvlib-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.4.0-beta3/750b09f13de71ed9952be1afcc6e033ff51bec8d/dvlib-24.4.0-beta3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.4.0-beta3/d4dabf7781250896493baeca1ed2add39d13e816/lint-api-24.4.0-beta3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.4.0-beta3/defcf762b50f0334df1225f5077e8d0f50f3cc9b/lint-api-24.4.0-beta3.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -2193,9 +2090,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/AnalyticsApplication.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/Pleated.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
@@ -2484,7 +2381,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/project/googleservice/google-services" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/passkeyCaldecorate/stoneforcal2.jks" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -2756,7 +2653,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445266762474</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add analysis">
+      <created>1446186045021</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1446186045021</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2816,7 +2719,8 @@
     <MESSAGE value="add layout weight , shower curtain and other" />
     <MESSAGE value="add pillow and cushion" />
     <MESSAGE value="add profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add profile" />
+    <MESSAGE value="add analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add analysis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3113,14 +3017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6386404">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/main/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3139,14 +3035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/first/tripakey/caldecorate/decorate/curtains/Pleated/Pleated.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3158,10 +3046,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.060822897">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.444445">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21288015">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.24329159">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
