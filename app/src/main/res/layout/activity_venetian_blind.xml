@@ -7,7 +7,7 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:scrollbars="none"
+
         android:layout_weight="1"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:background="#29d7d7d7">
