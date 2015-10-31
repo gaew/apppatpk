@@ -10,8 +10,8 @@ android {
         applicationId "com.first.tripakey.caldecorate"
         minSdkVersion 14
         targetSdkVersion 19
-        versionCode 18
-        versionName "2.9.009"
+        versionCode 19
+        versionName "2.9.010"
     }
     buildTypes {
         release {

@@ -33,10 +33,13 @@ import android.view.LayoutInflater;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 
+import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class WallPaper extends ActionBarActivity {
     LinearLayout container,container2,discountF;
@@ -65,13 +68,28 @@ public class WallPaper extends ActionBarActivity {
             addE_total_tv;
     static Button   bt_cal;
     long spar,num;
+
+    private Tracker mTracker;
+    String name = "wall paper";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(R.string.wallpeper);
         setContentView(R.layout.activity_wall_paper);
 
+//////beging analysis
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
 
+        mTracker.setScreenName("Image~" + name);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Share")
+                .build());
+////////////////end analysis
 
 
         usetotal=0;

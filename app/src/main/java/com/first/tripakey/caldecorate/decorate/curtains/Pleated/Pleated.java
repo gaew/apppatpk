@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.EyeletPagerAdapter;
+import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
 
 
@@ -21,14 +22,27 @@ public class Pleated extends AppCompatActivity {
     CharSequence Titles[] =  {"Calculate","Setting"};
     int Numboftabs = 2;
 
+
     private Tracker mTracker;
+    String name = "pleated curtain";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pleated);
         setTitle(R.string.pleated);
 
+///////////beging analysis
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
 
+        mTracker.setScreenName("Image~" + name);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Share")
+                .build());
+////////////////end analysis
         ////
         adapter = new PleatdePagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
 

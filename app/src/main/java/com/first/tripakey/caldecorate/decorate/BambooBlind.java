@@ -26,10 +26,13 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -50,7 +53,8 @@ public class BambooBlind extends ActionBarActivity {
     static String testStr;
 
 
-
+    private Tracker mTracker;
+    String name = "BambooBlind";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +62,18 @@ public class BambooBlind extends ActionBarActivity {
         setTitle(R.string.bambooblind);
         setContentView(R.layout.activity_bamboo_blind);
 
+//////beging analysis
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
 
+        mTracker.setScreenName("Image~" + name);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Share")
+                .build());
+////////////////end analysis
 
         cost1addCompunny();
 /////เริ่ม2 copy แอดส่วนลดตาม

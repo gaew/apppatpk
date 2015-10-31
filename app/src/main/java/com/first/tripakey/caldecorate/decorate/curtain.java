@@ -19,17 +19,36 @@ import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
 import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
 import com.first.tripakey.caldecorate.decorate.curtains.Roman.Roman;
+import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.MainActivity;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class curtain extends ActionBarActivity {
     String[] array_item = { "ผ้าม่านจีบ", "ผ้าม่านตาไก่", "ผ้าม่านพับ"};
     private ListView lsView_curtainType;
     private ArrayAdapter arrayAdapter;
+
+
+    private Tracker mTracker;
+    String name = "curtain";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(R.string.curtain);
         setContentView(R.layout.activity_curtains);
+        //////beging analysis
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
+        mTracker.setScreenName("Image~" + name);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Share")
+                .build());
+////////////////end analysis
 
         Button pleated = (Button)findViewById(R.id.bt_pleated);
         Button eyelet = (Button)findViewById(R.id.bt_eyelet);

@@ -9,9 +9,12 @@ import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
 
+import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class Roman extends AppCompatActivity {
     ViewPager pager;
@@ -19,12 +22,27 @@ public class Roman extends AppCompatActivity {
     SlidingTabLayout tabs;
     CharSequence Titles[] =  {"Calculate","Setting"};
     int Numboftabs = 2;
+
+    private Tracker mTracker;
+    String name = "roman curtain";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_roman);
         setTitle(R.string.romam);
 
+        //////beging analysis
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
+        mTracker.setScreenName("Image~" + name);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Share")
+                .build());
+////////////////end analysis
         ////
         adapter = new RomanPagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
 

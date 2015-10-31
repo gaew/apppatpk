@@ -30,9 +30,14 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.ImageLoader;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.net.URL;
@@ -54,12 +59,25 @@ public class RollerBlind extends AppCompatActivity {
     public Double priceUse_d,areaAddU,fabtotal;
     static String testStr;
 
-
+    private Tracker mTracker;
+    String name = "RollerBlind";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(R.string.rollerblind);
         setContentView(R.layout.activity_roller_blind);
+//////beging analysis
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
+        mTracker.setScreenName("Image~" + name);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Share")
+                .build());
+////////////////end analysis
 
 
         cost1addCompunny();

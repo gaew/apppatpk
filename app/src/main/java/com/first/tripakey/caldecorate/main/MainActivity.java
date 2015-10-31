@@ -22,16 +22,19 @@ public class MainActivity extends AppCompatActivity {
     //test merge with test
 
 
-    ViewPager pager;
+
     ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
     CharSequence Titles[]={"ตกแต่งภายใน","ค่าใช้จ่าย","แปลงหน่วย","ค้นหาร้าน"};
     int Numboftabs =4;
     boolean check_firsttime = false ;
     public static final String PREFS_NAME = "MyPrefsFile";
-
+    ViewPager pager;
     SQLiteDatabase mDb;
+
+
     private Tracker mTracker;
+    String name = "main of Caldecorate";
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
         // Obtain the shared Tracker instance.
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
+
+        mTracker.setScreenName("Image~" + name);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Action")
+                .setAction("Share")
+                .build());
 
        /* AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -127,32 +138,7 @@ public class MainActivity extends AppCompatActivity {
                     + CODE + " TEXT, " + WIDTH + " TEXT, " + PRICE + " TEXT, " + IMAGE + " TEXT); ");
             db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
                     + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A001','64','445','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-textiles-briarfield-fabric-eau-du-nil-1.jpg');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A002','65','456','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/c/l/clarke-clarke-fabric-deer-f0862-1.jpg');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE + "," + IMAGE + ") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A003','44','764','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-fabric-poppypod-eucalyptus-1.jpg');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A004','36','568');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A095','85','459');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A026','35','856');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหาดไท', 'ม่านตาไก่', 'A047','97','678');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'A098','45','876');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านตาไก่', 'A079','65','678');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A010','57','986');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A012','34','765');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A015','98','456');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A075','35','764');");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + ","+WIDTH+","+ PRICE +") VALUES ('ม่านหรรษา', 'ม่านจีบ', 'A014','54','345');");
+
 
         }
 
@@ -161,6 +147,8 @@ public class MainActivity extends AppCompatActivity {
             onCreate(db);
         }
     }
+
+
 
 
 }
