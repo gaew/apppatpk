@@ -88,6 +88,7 @@
     <string name="cal">คำนวนค่า</string>
     <string name="setting">หน้าตั้งค่า</string>
     <string name="title_activity_sqlite">sqlite</string>
+    <string name="title_activity_pillows">Pillows</string>
 
 
 </resources>

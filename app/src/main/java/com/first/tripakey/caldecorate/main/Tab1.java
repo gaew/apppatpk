@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import com.first.tripakey.caldecorate.R;
 import com.first.tripakey.caldecorate.decorate.BambooBlind;
+import com.first.tripakey.caldecorate.decorate.Pillows;
 import com.first.tripakey.caldecorate.decorate.RollerBlind;
 import com.first.tripakey.caldecorate.decorate.VenetianBlind;
 import com.first.tripakey.caldecorate.decorate.WallPaper;
@@ -26,6 +27,7 @@ public class Tab1 extends Fragment {
         Button mooliAlu =(Button)v.findViewById(R.id.mooliAlu);
         Button chag =(Button)v.findViewById(R.id.chag);
         Button wall =(Button)v.findViewById(R.id.wall);
+        Button pillow =(Button)v.findViewById(R.id.pillow);
 
         curtain.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +72,15 @@ public class Tab1 extends Fragment {
                 startActivity(intent);
             }
         });
+
+        pillow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Pillows.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         return v;
