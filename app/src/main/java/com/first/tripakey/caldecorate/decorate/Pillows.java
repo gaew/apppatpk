@@ -46,7 +46,7 @@ public class Pillows extends ActionBarActivity {
     ///////จบ1 copy แอดส่วนลดตา
     public Spinner spin_cost1;//แสดงชื้อบริษัทจำหน่ายผ้าม้าน
 
-   static public Double priceUse_d,areaAddU,fabtotal , total_yd;
+   static public Double priceUse_d,areaAddU,fabtotal , statusN;
     static String num;
 
 
@@ -92,11 +92,10 @@ public class Pillows extends ActionBarActivity {
 
         final TextView ydShow = (TextView) findViewById(R.id.yd_show);
         final TextView pillowRow = (TextView) findViewById(R.id.pillow_row);
-        final TextView totalFab = (TextView) findViewById(R.id.totalfab);
+        final TextView priceUse = (TextView) findViewById(R.id.lastHandi_textview);
 
-        final TextView priceUse = (TextView) findViewById(R.id.totalprice);
-        final TextView discount = (TextView) findViewById(R.id.handicap);
-        final TextView totalBht = (TextView) findViewById(R.id.totalbath);
+        final TextView handLesss = (TextView) findViewById(R.id.handLess);
+        final TextView totalPrice = (TextView) findViewById(R.id.totalPrice_textview);
 
         Button cal = (Button) findViewById(R.id.cal);
 
@@ -243,7 +242,7 @@ public class Pillows extends ActionBarActivity {
                     //end step1
 
                     //go proof
-                   Double statusN = 0.0;
+                    statusN = 0.0;
                     Double totalF = 0.0;
                     //////////all var ready
                      while (statusN<=N){
@@ -255,16 +254,12 @@ public class Pillows extends ActionBarActivity {
                     if ((N-statusN)!= 0.0) {
                         if  ((N-statusN)*(W+2)<eL*91.6) {
                             totalF += (N-statusN)*(W+2)/91.6;
-                        }else totalF += eL;
+                            statusN=N;
+                        }else {
+                            totalF += eL;
+                            statusN += nWF;
+                        }
                     }
-
-
-
-
-                    ydShow.setText(totalF.toString());
-                    pillowRow.setText(nWF.toString());
-                   //  pillowRow.setText(test.toString());
-
                     ///เริ่ม4 copy แอดส่วนลดตาม
                     priceUse_d=price_d;
                     switch (onstart){
@@ -336,13 +331,21 @@ public class Pillows extends ActionBarActivity {
                         priceUse_d = priceUse_d+priceUse_d*0.07;
 
                     }
+                    ///price_Use_d
                     Double discount_d=price_d-priceUse_d;
-                    Double totalBht_d=priceUse_d*fabtotal;
-                    Double motor_d=0.0;
-                    Double motor_unit ;
+                    Double totalBht_d=priceUse_d*totalF;
 
                     DecimalFormat d4 = new DecimalFormat("0.0000");
                     DecimalFormat d2 = new DecimalFormat("0.00");
+
+
+
+                    ydShow.setText(d4.format(totalF));
+                    pillowRow.setText(d2.format(statusN));
+
+                    priceUse.setText(d2.format(priceUse_d));
+                    handLesss.setText(d2.format(discount_d));
+                    totalPrice.setText(d2.format(totalBht_d));
 
                 }else Toast.makeText(getApplicationContext(),"ต้องใส่ข้อมูลในช่องที่มีเครื่องหมายดอกจัน *",Toast.LENGTH_SHORT).show();
 
