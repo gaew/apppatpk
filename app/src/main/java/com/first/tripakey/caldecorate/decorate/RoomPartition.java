@@ -26,6 +26,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
 import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
@@ -61,7 +62,7 @@ public class RoomPartition extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setTitle(R.string.roompatition);
         setContentView(R.layout.activity_room_partition);
-
+/*
 //////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -74,6 +75,7 @@ public class RoomPartition extends ActionBarActivity {
                 .setAction("Share")
                 .build());
 ////////////////end analysis
+*/
         cost1addCompunny();
         cost1addhight();
         /////เริ่ม2 copy แอดส่วนลดตาม
@@ -480,7 +482,13 @@ public class RoomPartition extends ActionBarActivity {
     @Override
     public void onBackPressed() {
 
-        startActivity(new Intent(RoomPartition.this, MainActivity.class));
+       // startActivity(new Intent(RoomPartition.this, MainActivity.class));
+
+        super.onBackPressed();
+        Intent i = new Intent(RoomPartition.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
 
     }
 

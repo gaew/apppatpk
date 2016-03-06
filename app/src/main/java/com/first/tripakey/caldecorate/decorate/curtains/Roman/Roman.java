@@ -1,5 +1,6 @@
 package com.first.tripakey.caldecorate.decorate.curtains.Roman;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -9,7 +10,9 @@ import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
 
+import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
 import com.first.tripakey.caldecorate.main.AnalyticsApplication;
+import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -64,5 +67,14 @@ public class Roman extends AppCompatActivity {
 
         // Setting the ViewPager For the SlidingTabsLayout
         tabs.setViewPager(pager);
+    }
+
+    public void onBackPressed() {
+
+        super.onBackPressed();
+        Intent i = new Intent(Roman.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
     }
 }

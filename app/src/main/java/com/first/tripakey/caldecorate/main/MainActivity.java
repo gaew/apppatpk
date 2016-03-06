@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle(R.string.titleMain);
-
+/*
         // Obtain the shared Tracker instance.
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -136,9 +136,30 @@ public class MainActivity extends AppCompatActivity {
             db.execSQL("CREATE TABLE " + TABLE_NAME + " (_id INTEGER PRIMARY KEY AUTOINCREMENT, "
                     + COMPANY + " TEXT, " + TYPE + " TEXT, "
                     + CODE + " TEXT, " + WIDTH + " TEXT, " + PRICE + " TEXT, " + IMAGE + " TEXT); ");
-            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE
-                    + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +") VALUES ('ม่านหาดไท', 'ม่านจีบ', 'A001','64','445','https://www.the-millshop-online.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/r/prestigious-textiles-briarfield-fabric-eau-du-nil-1.jpg');");
-
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('Extra', 'ม่านตาไก่', 'EP001','64','445'," +
+                    "'http://st.hzcdn.com/simgs/6aa1507c059574d4_9-9593/mediterranean-upholstery-fabric.jpg');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('U save', 'ม่านตาไก่', 'EP002','46','419'," +
+                    "'http://www.arcadia-textiles.co.uk/userfiles/lg_images/Wild_Fern_Mineral_Curtain_Fabric-xAyno1.jpg');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('NEO extra', 'ม่านตาไก่', 'EP003','24','805'," +
+                    "'https://d2d00szk9na1qq.cloudfront.net/Product/4211e281-1f6a-41b5-98f2-77004e929e35/Images/Large_0420649.jpg');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('NEO eyelet', 'ม่านตาไก่', 'EP004','93','630'," +
+                    "'https://d2d00szk9na1qq.cloudfront.net/Product/c9eb56d6-da24-440c-892d-774cf7454cf3/Images/Large_UK-138.jpg');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('NEO eyelet', 'ม่านตาไก่', 'EP005','37','452'," +
+                    "'https://d2d00szk9na1qq.cloudfront.net/Product/af22dcef-73f2-4655-b134-00b9f278eac1/Images/Large_0408385.jpg');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('NEO eyelet', 'ม่านตาไก่', 'EP006','91','348'," +
+                    "'http://mayang.com/textures/Fabric/images/Patterned%20Fabric/rug_closeup_9280130.JPG');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('Extra', 'ม่านตาไก่', 'EP007','95','842'," +
+                    "'http://mayang.com/textures/Fabric/images/Patterned%20Fabric/carpet_texture_071281.JPG');");
+            db.execSQL("INSERT INTO " + TABLE_NAME + " (" + COMPANY + ", " + TYPE + "," + CODE + "," + WIDTH + "," + PRICE + "," + IMAGE +")" +
+                    " VALUES ('Extra', 'ม่านตาไก่', 'EP008','38','864'," +
+                    "'http://mayang.com/textures/Fabric/images/Patterned%20Fabric/silk_071322.JPG');");
 
         }
 

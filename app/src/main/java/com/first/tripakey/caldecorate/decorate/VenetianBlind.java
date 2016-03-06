@@ -26,6 +26,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
 import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
@@ -72,7 +73,7 @@ public class VenetianBlind extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setTitle(R.string.venetianbline);
         setContentView(R.layout.activity_venetian_blind);
-
+/*
 //////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -85,7 +86,7 @@ public class VenetianBlind extends ActionBarActivity {
                 .setAction("Share")
                 .build());
 ////////////////end analysis
-
+*/
         cost1addCompunny();
 
         final EditText price = (EditText) findViewById(R.id.price);
@@ -468,8 +469,12 @@ public class VenetianBlind extends ActionBarActivity {
     @Override
     public void onBackPressed() {
 
-        startActivity(new Intent(VenetianBlind.this, MainActivity.class));
-
+      //  startActivity(new Intent(VenetianBlind.this, MainActivity.class));
+        super.onBackPressed();
+        Intent i = new Intent(VenetianBlind.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
     }
 
 

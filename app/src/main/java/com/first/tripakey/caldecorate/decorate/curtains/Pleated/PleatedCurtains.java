@@ -52,6 +52,7 @@ public class PleatedCurtains extends Fragment {
     public  ImageView image;
     public   String[] width_db;
     public static String image_url;
+
     ///////จบ1 copy แอดส่วนลดตาม
     public Spinner spin_LTD;//spinner บริษัทขายผ้า
     public boolean checkbox_addFab, checkbox_vat;
@@ -60,7 +61,7 @@ public class PleatedCurtains extends Fragment {
             double_doorW, double_doorH,
             double_numPiece, double_metreThaiunitPiece,      double_metrePiece,double_lastHandi, double_handless,  double_numWin,
             double_interNumpice;
-    static EditText edt_doorW, edt_doorH, edt_fabricW,  edt_priceInt,  edt_numWin;
+    public static EditText edt_doorW, edt_doorH, edt_fabricW,  edt_priceInt,  edt_numWin, company;
     static String stg_doorW, stg_doorH,  stg_fabricW, stg_priceInt,  stg_lasthand,  stg_lastprice,    stg_numWin;
     static TextView txtV_totalPrice,
             txtV_numPiece,
@@ -127,11 +128,10 @@ public class PleatedCurtains extends Fragment {
         code.setAdapter(adapter_code);
 
 //////////
-        String company_st[] = getResources().getStringArray(R.array.list_of_company);
+       // String company_st[] = getResources().getStringArray(R.array.list_of_company);
 
-        AutoCompleteTextView company =(AutoCompleteTextView)v.findViewById(R.id.company);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(),android.R.layout.simple_list_item_1,company_st);
-        company.setAdapter(adapter);
+         company =(EditText)v.findViewById(R.id.company);
+
 
         //เทียบตัวเปนกับ xml
         edt_numWin = (EditText) v.findViewById(R.id.numWinEdt);
@@ -175,6 +175,7 @@ public class PleatedCurtains extends Fragment {
                     width_db = returnWidth(code.getText().toString());
                     edt_fabricW.setText(width_db[0]);
                     edt_priceInt.setText(width_db[1]);
+                    company.setText(width_db[3]);
                     ///////////
                     int loader = R.drawable.ban_ic;
                     image_url = width_db[2];
@@ -495,16 +496,18 @@ public class PleatedCurtains extends Fragment {
 public String[] returnWidth(String code){
     MainActivity.MyDbHelper db = new MainActivity.MyDbHelper(getActivity());
     mDb = db.getWritableDatabase();
-     String re[] ={" "," "," "};
+     String re[] ={" "," "," "," "};
         String price =" ";
     code= "'"+code+"'";
-    mCursor = mDb.rawQuery(" SELECT " + MainActivity.MyDbHelper.WIDTH +"," + MainActivity.MyDbHelper.PRICE + "," + MainActivity.MyDbHelper.IMAGE + " FROM " +  MainActivity.MyDbHelper.TABLE_NAME + " WHERE " +
+    mCursor = mDb.rawQuery(" SELECT " + MainActivity.MyDbHelper.WIDTH +"," + MainActivity.MyDbHelper.PRICE +"," + MainActivity.MyDbHelper.COMPANY + "," + MainActivity.MyDbHelper.IMAGE + " FROM " +  MainActivity.MyDbHelper.TABLE_NAME + " WHERE " +
             MainActivity.MyDbHelper.CODE + "=" + code ,null);
     mCursor.moveToFirst();
 if (!mCursor.isBeforeFirst()){
     re[0] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.WIDTH));
     re[1] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.PRICE));
     re[2] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.IMAGE));
+    re[3] = mCursor.getString(mCursor.getColumnIndex(MainActivity.MyDbHelper.COMPANY));
+
 }
     return re;
 }
@@ -527,7 +530,7 @@ if (!mCursor.isBeforeFirst()){
         image.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
                 View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
         image.layout(0, 0,
-                image.getMeasuredWidth(), image.getMeasuredHeight());
+                500, 500);
         image.buildDrawingCache(true);
         Bitmap bmap = Bitmap.createBitmap(image.getDrawingCache());
         image.setDrawingCacheEnabled(false);

@@ -1,5 +1,6 @@
 package com.first.tripakey.caldecorate.decorate.curtains.Pleated;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -8,8 +9,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.Eyelet;
 import com.first.tripakey.caldecorate.decorate.curtains.Eyelet.EyeletPagerAdapter;
 import com.first.tripakey.caldecorate.main.AnalyticsApplication;
+import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
 
 
@@ -30,7 +33,7 @@ public class Pleated extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pleated);
         setTitle(R.string.pleated);
-
+/*
 ///////////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -43,6 +46,7 @@ public class Pleated extends AppCompatActivity {
                 .setAction("Share")
                 .build());
 ////////////////end analysis
+*/
         ////
         adapter = new PleatdePagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
 
@@ -64,5 +68,14 @@ public class Pleated extends AppCompatActivity {
 
         // Setting the ViewPager For the SlidingTabsLayout
         tabs.setViewPager(pager);
+    }
+
+    public void onBackPressed() {
+
+        super.onBackPressed();
+        Intent i = new Intent(Pleated.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
     }
 }

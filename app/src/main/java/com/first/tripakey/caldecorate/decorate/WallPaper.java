@@ -33,6 +33,7 @@ import android.view.LayoutInflater;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 
+import com.first.tripakey.caldecorate.decorate.curtains.Roman.Roman;
 import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
@@ -77,7 +78,7 @@ public class WallPaper extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setTitle(R.string.wallpeper);
         setContentView(R.layout.activity_wall_paper);
-
+/*
 //////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -90,7 +91,7 @@ public class WallPaper extends ActionBarActivity {
                 .setAction("Share")
                 .build());
 ////////////////end analysis
-
+*/
 
         usetotal=0;
         areaAddU=0;
@@ -528,6 +529,15 @@ public class WallPaper extends ActionBarActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void onBackPressed() {
+
+        super.onBackPressed();
+        Intent i = new Intent(WallPaper.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
     }
 
 }

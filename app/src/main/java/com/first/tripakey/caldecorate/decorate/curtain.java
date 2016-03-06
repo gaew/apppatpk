@@ -37,6 +37,7 @@ public class curtain extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setTitle(R.string.curtain);
         setContentView(R.layout.activity_curtains);
+        /*
         //////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -49,7 +50,7 @@ public class curtain extends ActionBarActivity {
                 .setAction("Share")
                 .build());
 ////////////////end analysis
-
+*/
         Button pleated = (Button)findViewById(R.id.bt_pleated);
         Button eyelet = (Button)findViewById(R.id.bt_eyelet);
         Button roman = (Button)findViewById(R.id.bt_roman);
@@ -79,7 +80,12 @@ public class curtain extends ActionBarActivity {
     }
     //กลับไป activity ก่อนหน้านี้
     public void onBackPressed() {
-        startActivity(new Intent(curtain.this, MainActivity.class));
+       // startActivity(new Intent(curtain.this, MainActivity.class));
+        super.onBackPressed();
+        Intent i = new Intent(curtain.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

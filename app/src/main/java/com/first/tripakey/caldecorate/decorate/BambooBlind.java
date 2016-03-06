@@ -26,6 +26,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.first.tripakey.caldecorate.decorate.curtains.Pleated.Pleated;
 import com.first.tripakey.caldecorate.main.AnalyticsApplication;
 import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.R;
@@ -61,7 +62,7 @@ public class BambooBlind extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setTitle(R.string.bambooblind);
         setContentView(R.layout.activity_bamboo_blind);
-
+/*
 //////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -74,7 +75,7 @@ public class BambooBlind extends ActionBarActivity {
                 .setAction("Share")
                 .build());
 ////////////////end analysis
-
+*/
         cost1addCompunny();
 /////เริ่ม2 copy แอดส่วนลดตาม
         onstart=0;
@@ -464,8 +465,12 @@ public class BambooBlind extends ActionBarActivity {
     @Override
     public void onBackPressed() {
 
-        startActivity(new Intent(BambooBlind.this, MainActivity.class));
-
+       // startActivity(new Intent(BambooBlind.this, MainActivity.class));
+        super.onBackPressed();
+        Intent i = new Intent(BambooBlind.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
     }
 
 

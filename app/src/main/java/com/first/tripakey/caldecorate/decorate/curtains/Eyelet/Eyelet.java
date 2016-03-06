@@ -5,8 +5,10 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import com.first.tripakey.caldecorate.R;
+import com.first.tripakey.caldecorate.decorate.Pillows;
 import com.first.tripakey.caldecorate.decorate.curtain;
 import com.first.tripakey.caldecorate.main.AnalyticsApplication;
+import com.first.tripakey.caldecorate.main.MainActivity;
 import com.first.tripakey.caldecorate.main.SlidingTabLayout;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -29,6 +31,7 @@ public class Eyelet extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eyelet);
         setTitle(R.string.eyelet);
+        /*
 ///////////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -41,6 +44,7 @@ public class Eyelet extends ActionBarActivity {
                 .setAction("Share")
                 .build());
 ////////////////end analysis
+*/
         ////set page adaptor
         adapter = new EyeletPagerAdapter(getSupportFragmentManager(), Titles, Numboftabs);
 
@@ -65,7 +69,13 @@ public class Eyelet extends ActionBarActivity {
     }
 
     public void onBackPressed() {
-        startActivity(new Intent(Eyelet.this, curtain.class));
+        //startActivity(new Intent(Eyelet.this, curtain.class));
+
+        super.onBackPressed();
+        Intent i = new Intent(Eyelet.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
     }
 }
 

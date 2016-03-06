@@ -58,7 +58,7 @@ public class Pillows extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setTitle(R.string.bambooblind);
         setContentView(R.layout.activity_pillows );
-
+/*
 //////beging analysis
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -72,7 +72,7 @@ public class Pillows extends ActionBarActivity {
                 .build());
 ////////////////end analysis
 
-
+*/
         cost1addCompunny();
 /////เริ่ม2 copy แอดส่วนลดตาม
         onstart=0;
@@ -373,8 +373,13 @@ public class Pillows extends ActionBarActivity {
 
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
+        Intent i = new Intent(Pillows.this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
+       // startActivity(new Intent(Pillows.this, MainActivity.class));
 
-        startActivity(new Intent(Pillows.this, MainActivity.class));
 
     }
 
